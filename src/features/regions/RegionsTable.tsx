@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import type { RankedRow } from '../../shared/components/charts/BarList';
 import { SectionCard } from '../../shared/components/SectionCard';
 import { useLanguage } from '../../shared/i18n/useLanguage';
-import { formatChange, formatNumber, formatPercent } from '../../shared/lib/format';
+import { formatChange, formatPercent } from '../../shared/lib/format';
 import styles from './RegionsTable.module.css';
 
 interface RegionsTableProps {

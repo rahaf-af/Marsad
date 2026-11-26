@@ -163,6 +163,15 @@
     .desktopNav {
         display: none;
     }
+
+    /* Tablet and phone: the footer is centered, one block under the other. */
+    .footerInner,
+    .footerStart,
+    .footerEnd {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 /* Phone: tighter spacing everywhere. */
@@ -182,14 +191,5 @@
 
     .footer {
         padding: var(--m-space-lg) var(--m-space-md);
-    }
-
-    /* Phone: everything centered, one block under the other. */
-    .footerInner,
-    .footerStart,
-    .footerEnd {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
     }
 }

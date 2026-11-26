@@ -4,6 +4,6 @@
  */
 export const CONTACT = {
   linkedin: 'linkedin.com/in/rahaffalatah',
-  github: 'https://github.com/YOUR-USERNAME/mersad',
+  github: 'https://github.com/rahaf-af/Marsad',
   email: 'rahaf77553@gmail.com',
 } as const;

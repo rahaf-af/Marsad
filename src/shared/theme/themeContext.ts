@@ -1,12 +1,12 @@
 import { createContext } from 'react';
 import type { ResolvedMode } from './tokens';
 
-export type ThemeMode = 'light' | 'dark' | 'system';
+export type ThemeMode = ResolvedMode;
 
 export interface ThemeContextValue {
-
+    /** What the user picked. */
     mode: ThemeMode;
-    /** What is actually on screen. */
+    /** What is actually on screen (same as mode now that "system" is gone). */
     resolvedMode: ResolvedMode;
     setMode: (mode: ThemeMode) => void;
 }

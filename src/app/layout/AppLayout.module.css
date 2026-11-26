@@ -7,15 +7,21 @@
     min-height: 100vh;
     /* iPhone: 100vh ignores Safari's address bar; dvh follows the space actually visible. */
     min-height: 100dvh;
+    /* The header is fixed, so the page starts below it. */
+    padding-top: var(--m-layout-header-height);
 }
 
 /*
+ * Fixed (not sticky): Safari on iOS 26 tints its see-through top bar with the color of a
+ * fixed element touching the top edge. With sticky, page content showed through above the header.
+ *
  * Three columns across the full width: the outer two share the leftover space equally,
  * so the menu in the middle is truly centered no matter how wide the logo or settings are.
  */
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    inset-inline: 0;
     z-index: 10;
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);

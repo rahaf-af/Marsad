@@ -1,5 +1,5 @@
 import { Segmented } from 'antd';
-import { Monitor, Moon, Sun } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import type { ThemeMode } from '../../shared/theme/themeContext';
 import { useThemeMode } from '../../shared/theme/useTheme';
@@ -20,7 +20,6 @@ export function ThemeToggle() {
                 options={[
                     { value: 'light', icon: <Sun size={ICON_SIZE} className={styles.icon} />, title: t('theme.light') },
                     { value: 'dark', icon: <Moon size={ICON_SIZE} className={styles.icon} />, title: t('theme.dark') },
-                    { value: 'system', icon: <Monitor size={ICON_SIZE} className={styles.icon} />, title: t('theme.system') },
                 ]}
             />
         </div>

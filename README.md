@@ -22,7 +22,7 @@
 
 <br />
 
-[![Live demo](https://img.shields.io/badge/Live_demo-marsad--ksa.netlify.app-0E5E4B?style=for-the-badge)](https://marsad-ksa.netlify.app)
+**🔗 Live demo: [marsad-ksa.netlify.app](https://marsad-ksa.netlify.app)**
 
 <p align="center">
   <img src="docs/screenshots/overview-light.jpg" width="49%" alt="Overview page, light theme" />

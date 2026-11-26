@@ -22,7 +22,11 @@
 
 <br />
 
-**🔗 Live demo: [marsad-ksa.netlify.app](https://marsad-ksa.netlify.app)**
+<p align="center">
+  <a href="https://marsad-ksa.netlify.app">
+    <img src="docs/live-demo.svg" alt="View the live site" height="52" />
+  </a>
+</p>
 
 <p align="center">
   <img src="docs/screenshots/overview-light.jpg" width="49%" alt="Overview page, light theme" />

@@ -1,0 +1,27 @@
+.logo {
+    flex-shrink: 0;
+}
+
+.tile {
+    fill: var(--m-primary);
+}
+
+.weave {
+    opacity: 0.55;
+}
+
+.line {
+    fill: none;
+    stroke: var(--m-hero-text);
+    stroke-width: 1.45;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.point {
+    fill: var(--m-hero-text);
+}
+
+.accent {
+    fill: var(--m-header-accent);
+}

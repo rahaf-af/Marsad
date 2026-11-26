@@ -1,0 +1,104 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Rows spread out evenly when the card is taller than the list. */
+.list {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: var(--m-space-lg);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Name on one side; both values and the gap on the other, so labels never collide on the line. */
+.meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--m-space-xs) var(--m-space-md);
+    margin-block-end: var(--m-space-sm);
+}
+
+.label {
+    font-size: var(--m-font-md);
+    font-weight: 600;
+    color: var(--m-text);
+}
+
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--m-space-xs) var(--m-space-md);
+    font-variant-numeric: tabular-nums;
+}
+
+.value {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--m-space-xs);
+    font-size: var(--m-font-md);
+    font-weight: 600;
+    color: var(--m-text);
+}
+
+.gap {
+    padding: var(--m-space-xxs) var(--m-space-sm);
+    border-radius: var(--m-radius-pill);
+    background: var(--m-primary-soft);
+    color: var(--m-primary-text);
+    font-size: var(--m-font-sm);
+    font-weight: 500;
+}
+
+/*
+ * The scale. Positions are fractions (0–1) set from the component and placed with
+ * inset-inline-start, so the low end is on the right in Arabic and on the left in English.
+ */
+.track {
+    position: relative;
+    height: var(--m-space-lg);
+    border-radius: var(--m-radius-pill);
+    background: color-mix(in srgb, var(--m-border) 50%, transparent);
+}
+
+.connector {
+    position: absolute;
+    inset-block: calc((var(--m-space-lg) - var(--m-space-xs)) / 2);
+    inset-inline-start: calc(var(--from) * 100%);
+    width: calc((var(--to) - var(--from)) * 100%);
+    border-radius: var(--m-radius-pill);
+    background: var(--m-text-secondary);
+    opacity: 0.5;
+}
+
+/* A Sadu eye for each value, centered on its place on the scale. */
+.dot {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: calc(var(--at) * 100%);
+    display: flex;
+    translate: -50% -50%;
+    transition: inset-inline-start 0.6s ease;
+}
+
+/* translate doesn't flip with the page; in Arabic the start edge is on the right. */
+:global([dir='rtl']) .dot {
+    translate: 50% -50%;
+}
+
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}

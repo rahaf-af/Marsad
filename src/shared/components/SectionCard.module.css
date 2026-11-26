@@ -1,0 +1,41 @@
+/*
+ * Cards in the same grid row stretch to the same height. The card is a flex column so its
+ * content (e.g. a chart) can grow into that height instead of leaving empty space below.
+ */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card> :global(.ant-card-body) {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--m-space-sm) var(--m-space-md);
+    margin-block-end: var(--m-space-lg);
+}
+
+.titles {
+    min-width: 0;
+}
+
+.title {
+    margin: 0;
+    font-size: var(--m-font-base);
+    font-weight: 600;
+    color: var(--m-text);
+}
+
+.description {
+    margin: var(--m-space-xxs) 0 0;
+    font-size: var(--m-font-md);
+    color: var(--m-text-secondary);
+}

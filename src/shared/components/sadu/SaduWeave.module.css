@@ -1,0 +1,25 @@
+.weave {
+    display: block;
+    flex-shrink: 0;
+}
+
+/* The long side follows the parent; the short side is set by the component (BAND px). */
+.horizontal {
+    width: 100%;
+}
+
+.vertical {
+    height: 100%;
+}
+
+.base {
+    fill: var(--m-hero-bg);
+}
+
+.light {
+    fill: var(--m-header-accent);
+}
+
+.mid {
+    fill: var(--m-logo-pattern);
+}

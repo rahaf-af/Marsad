@@ -1,0 +1,104 @@
+/* Column counts are fixed (8 / 4 / 2) rather than auto-fill, so the 16 cells always fit exactly. */
+/* Tiles on top, the key at the bottom; when the card is stretched, the tiles get taller. */
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-auto-flow: dense;
+    flex: 1;
+    gap: var(--m-space-sm);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-xxs);
+    padding: var(--m-space-md);
+    border-radius: var(--m-radius-md);
+    background: color-mix(in srgb, var(--tile-color) var(--tile-tint), var(--m-surface));
+    color: var(--m-text);
+    transition: transform 0.2s ease;
+}
+
+.featured {
+    grid-column: span 2;
+    grid-row: span 2;
+    padding: var(--m-space-lg);
+}
+
+.featured .name {
+    font-size: var(--m-font-base);
+    font-weight: 600;
+}
+
+.featured .value {
+    font-size: var(--m-font-title);
+}
+
+.tile:hover {
+    transform: translateY(calc(var(--m-space-xxs) * -1));
+}
+
+.rank {
+    font-size: var(--m-font-xs);
+    color: var(--m-text-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+.name {
+    font-size: var(--m-font-md);
+    line-height: 1.4;
+}
+
+.value {
+    margin-block-start: auto;
+    padding-block-start: var(--m-space-xs);
+    font-size: var(--m-font-lg);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+/* The key under the tiles: light = low, deep = high. */
+.scale {
+    display: flex;
+    align-items: center;
+    gap: var(--m-space-sm);
+    margin-block-start: var(--m-space-lg);
+    font-size: var(--m-font-sm);
+    color: var(--m-text-secondary);
+}
+
+.gradient {
+    flex: 0 1 calc(var(--m-space-xxl) * 4);
+    height: var(--m-space-sm);
+    border-radius: var(--m-radius-pill);
+    background: linear-gradient(to right,
+            color-mix(in srgb, var(--tile-color) var(--tile-min), var(--m-surface)),
+            color-mix(in srgb, var(--tile-color) var(--tile-max), var(--m-surface)));
+}
+
+:global([dir='rtl']) .gradient {
+    background: linear-gradient(to left,
+            color-mix(in srgb, var(--tile-color) var(--tile-min), var(--m-surface)),
+            color-mix(in srgb, var(--tile-color) var(--tile-max), var(--m-surface)));
+}
+
+/* Media queries can't read CSS variables: 1200 and 576 are the laptop and phone breakpoints. */
+@media (max-width: 1199px) {
+    .grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 575px) {
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

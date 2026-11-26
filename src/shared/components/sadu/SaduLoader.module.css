@@ -1,0 +1,28 @@
+.loader {
+    display: block;
+}
+
+.stitch {
+    fill: var(--m-primary-text);
+    animation: weave 1.8s ease-in-out infinite;
+}
+
+/* Each row fades in, holds, then fades back; the row delays turn it into a weaving wave. */
+@keyframes weave {
+
+    0%,
+    100% {
+        opacity: 0.15;
+    }
+
+    35%,
+    65% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .stitch {
+        animation: none;
+    }
+}

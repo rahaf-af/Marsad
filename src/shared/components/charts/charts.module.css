@@ -1,0 +1,16 @@
+/* Legend on top, chart fills the rest of the ChartCard height. */
+.frame {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.plot {
+    flex: 1;
+    min-height: 0;
+}
+
+/* Charts without a legend. */
+.fill {
+    height: 100%;
+}

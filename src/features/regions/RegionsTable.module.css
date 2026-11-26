@@ -1,0 +1,61 @@
+.valueCell {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--m-space-md);
+}
+
+.value {
+    min-width: calc(var(--m-space-xxl) * 1.5);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
+/* A short, fixed-width bar: the column stays narrow. */
+.track {
+    display: block;
+    width: calc(var(--m-space-xxl) * 3);
+    height: var(--m-space-sm);
+    border-radius: var(--m-radius-pill);
+    background: color-mix(in srgb, var(--bar-color) 12%, transparent);
+    overflow: hidden;
+}
+
+/* Same bar as BarList: grows from the start edge (right in Arabic, left in English). */
+.bar {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: var(--bar-color);
+    transform: scaleX(var(--bar-size));
+    transform-origin: left;
+    transition: transform 0.6s ease;
+}
+
+:global([dir='rtl']) .bar {
+    transform-origin: right;
+}
+
+.diff {
+    display: inline-block;
+    padding: var(--m-space-xxs) var(--m-space-sm);
+    border-radius: var(--m-radius-pill);
+    font-size: var(--m-font-md);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.good {
+    color: var(--m-success);
+    background: color-mix(in srgb, var(--m-success) 12%, transparent);
+}
+
+.bad {
+    color: var(--m-error);
+    background: color-mix(in srgb, var(--m-error) 12%, transparent);
+}
+
+.neutral {
+    color: var(--m-text-secondary);
+    background: color-mix(in srgb, var(--m-text-secondary) 12%, transparent);
+}

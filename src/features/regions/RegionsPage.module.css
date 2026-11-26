@@ -1,0 +1,10 @@
+/* Takes the rest of the page height, and hands it to the card inside. */
+.grow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.grow>* {
+    flex: 1;
+}

@@ -1,0 +1,35 @@
+/* Sits behind the hero content on the end side, fading towards the title. */
+/* Always behind the parent's content. */
+.pattern {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-end: 0;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.35;
+}
+
+/* Hero: the end side only, fading towards the title. */
+.fade {
+    width: 55%;
+    mask-image: linear-gradient(to left, black 20%, transparent);
+}
+
+:global([dir='rtl']) .fade {
+    mask-image: linear-gradient(to right, black 20%, transparent);
+}
+
+/* A panel that is all pattern. */
+.cover {
+    width: 100%;
+}
+
+.stroke {
+    fill: none;
+    stroke: var(--m-hero-pattern);
+    stroke-width: 1.5;
+}
+
+.fill {
+    fill: var(--m-hero-pattern);
+}

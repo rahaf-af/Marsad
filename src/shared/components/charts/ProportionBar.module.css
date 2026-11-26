@@ -1,0 +1,75 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-lg);
+}
+
+.headline {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--m-space-xs) var(--m-space-sm);
+    margin: 0;
+}
+
+.headlineValue {
+    font-size: var(--m-font-title);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--m-text);
+    font-variant-numeric: tabular-nums;
+}
+
+.headlineText {
+    font-size: var(--m-font-md);
+    color: var(--m-text-secondary);
+}
+
+/* One bar for the whole; segments run from the start edge, so it follows RTL by itself. */
+.bar {
+    display: flex;
+    gap: var(--m-space-xxs);
+    height: calc(var(--m-space-xxl) + var(--m-space-sm));
+    overflow: hidden;
+    border-radius: var(--m-radius-md);
+}
+
+.segment {
+    flex-basis: 0;
+    min-width: var(--m-space-xxs);
+    background: color-mix(in srgb, var(--bar-color) var(--step), var(--m-surface));
+}
+
+/* Rows spread out evenly when the card is taller than the content. */
+.key {
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--m-layout-key-item-min-width)), 1fr));
+    align-content: space-around;
+    gap: var(--m-space-sm) var(--m-space-xl);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.keyItem {
+    display: flex;
+    align-items: center;
+    gap: var(--m-space-sm);
+    padding-block: var(--m-space-xxs);
+    border-block-end: 1px solid var(--m-border);
+}
+
+.keyLabel {
+    flex: 1;
+    min-width: 0;
+    font-size: var(--m-font-md);
+    color: var(--m-text);
+}
+
+.keyValue {
+    font-size: var(--m-font-md);
+    font-weight: 600;
+    color: var(--m-text);
+    font-variant-numeric: tabular-nums;
+}

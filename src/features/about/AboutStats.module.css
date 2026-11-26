@@ -1,0 +1,46 @@
+/* Four numbers in a row on the hero, separated by thin lines; two by two on phones. */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 0;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--m-space-xxs);
+    padding-inline: var(--m-space-xl);
+    border-inline-start: 1px solid color-mix(in srgb, var(--m-hero-text) 25%, transparent);
+}
+
+.stat:first-child {
+    padding-inline-start: 0;
+    border-inline-start: none;
+}
+
+.value {
+    margin: 0;
+    font-size: var(--m-font-title);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--m-hero-text);
+    font-variant-numeric: tabular-nums;
+}
+
+.label {
+    font-size: var(--m-font-sm);
+    color: var(--m-hero-text-secondary);
+}
+
+@media (max-width: 575px) {
+    .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--m-space-lg) 0;
+        width: 100%;
+    }
+
+    .stat:nth-child(odd) {
+        padding-inline-start: 0;
+        border-inline-start: none;
+    }
+}

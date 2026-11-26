@@ -1,0 +1,22 @@
+.callout {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--m-space-sm);
+    padding: var(--m-space-md) var(--m-space-lg);
+    border: 1px solid color-mix(in srgb, var(--m-primary-text) 25%, transparent);
+    border-radius: var(--m-radius-md);
+    background: var(--m-primary-soft);
+    color: var(--m-text);
+}
+
+.icon {
+    flex-shrink: 0;
+    margin-block-start: var(--m-space-xxs);
+    color: var(--m-primary-text);
+}
+
+.text {
+    margin: 0;
+    font-size: var(--m-font-md);
+    line-height: 1.7;
+}

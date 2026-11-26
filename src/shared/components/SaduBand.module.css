@@ -1,0 +1,24 @@
+.band {
+    display: block;
+    width: 100%;
+    fill: currentColor;
+}
+
+/* The outlined diamond. Thicker than the hero's, because the band draws it at a third of the size. */
+.stroke {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 3;
+}
+
+.fade {
+    width: 55%;
+    /* The -webkit- copy is for older iPhones (Safari before 15.4). */
+    -webkit-mask-image: linear-gradient(to left, black 20%, transparent);
+    mask-image: linear-gradient(to left, black 20%, transparent);
+}
+
+:global([dir='rtl']) .fade {
+    -webkit-mask-image: linear-gradient(to right, black 20%, transparent);
+    mask-image: linear-gradient(to right, black 20%, transparent);
+}

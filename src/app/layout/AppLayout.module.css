@@ -1,0 +1,189 @@
+/*
+ * Media queries can't read CSS variables, so the breakpoints are written as numbers:
+ * 1100 (the full menu needs this much room), 576 (phone).
+ */
+
+.layout {
+    min-height: 100vh;
+    /* iPhone: 100vh ignores Safari's address bar; dvh follows the space actually visible. */
+    min-height: 100dvh;
+}
+
+/*
+ * Three columns across the full width: the outer two share the leftover space equally,
+ * so the menu in the middle is truly centered no matter how wide the logo or settings are.
+ */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: var(--m-space-lg);
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    gap: var(--m-space-sm);
+    justify-self: start;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    gap: var(--m-space-sm);
+    justify-self: end;
+}
+
+.menuButton {
+    display: none;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: var(--m-space-sm);
+    color: var(--m-header-text);
+    text-decoration: none;
+}
+
+.brand:hover,
+.brand:focus-visible {
+    color: var(--m-header-accent);
+}
+
+.brandName {
+    font-size: var(--m-font-lg);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.desktopNav {
+    min-width: 0;
+}
+
+.horizontalMenu {
+    border-bottom: none;
+}
+
+
+.drawerTitle,
+.footerBrand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--m-space-sm);
+}
+
+.footerBrand {
+    font-weight: 700;
+    color: var(--m-primary-text);
+}
+
+.drawerMenu {
+    border-inline-end: none;
+}
+
+/*
+ * Content and container are flex columns that fill the space between header and footer,
+ * so a section can stretch to the bottom of the screen (e.g. the region tiles).
+ */
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--m-space-xl);
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    max-width: var(--m-layout-max-width);
+    margin-inline: auto;
+}
+
+/* ---------- Footer: one compact row on wide screens ---------- */
+
+.footer {
+    padding: var(--m-space-lg) var(--m-space-xl);
+    border-block-start: 1px solid var(--m-border);
+    color: var(--m-text-secondary);
+    font-size: var(--m-font-sm);
+}
+
+.footerInner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--m-space-md) var(--m-space-xl);
+    max-width: var(--m-layout-max-width);
+    margin-inline: auto;
+}
+
+.footerStart,
+.footerEnd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--m-space-sm) var(--m-space-lg);
+}
+
+.footerMeta {
+    line-height: 1.6;
+}
+
+.contact {
+    display: flex;
+    gap: var(--m-space-sm);
+}
+
+.copyright {
+    white-space: nowrap;
+}
+
+/* Below 1100px the pages don't fit in one row, so they move into the drawer. */
+@media (max-width: 1099px) {
+    .header {
+        grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    .menuButton {
+        display: inline-flex;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+}
+
+/* Phone: tighter spacing everywhere. */
+@media (max-width: 575px) {
+    .header {
+        gap: var(--m-space-sm);
+        padding-inline: var(--m-space-md);
+    }
+
+    .end {
+        gap: var(--m-space-xs);
+    }
+
+    .content {
+        padding: var(--m-space-lg) var(--m-space-md);
+    }
+
+    .footer {
+        padding: var(--m-space-lg) var(--m-space-md);
+    }
+
+    /* Phone: everything centered, one block under the other. */
+    .footerInner,
+    .footerStart,
+    .footerEnd {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

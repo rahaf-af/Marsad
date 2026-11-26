@@ -1,0 +1,38 @@
+.link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--m-radius-sm);
+}
+
+.diamond {
+    display: block;
+    fill: var(--m-primary);
+    transition:
+        fill 0.2s ease,
+        transform 0.2s ease;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    color: var(--m-hero-text);
+}
+
+.link:hover .diamond,
+.link:focus-visible .diamond {
+    fill: var(--m-primary-text);
+    transform: scale(1.08);
+}
+
+/* In dark mode primary-text is light green, so the icon turns dark on hover to stay readable. */
+.link:hover .icon,
+.link:focus-visible .icon {
+    color: var(--m-surface);
+}
+
+.link:focus-visible {
+    outline: 2px solid var(--m-primary-text);
+    outline-offset: 2px;
+}

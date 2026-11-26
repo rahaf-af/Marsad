@@ -1,0 +1,29 @@
+.wrap {
+    position: relative;
+}
+
+/* In Arabic the newest quarter sits on the left, like the big trend charts. The marker is symmetric, so it flips too. */
+:global([dir='rtl']) .wrap {
+    transform: scaleX(-1);
+}
+
+.sparkline {
+    display: block;
+    width: 100%;
+    height: var(--m-layout-sparkline-height);
+}
+
+.line {
+    fill: none;
+    stroke: var(--m-chart-saudi);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.end {
+    position: absolute;
+    display: flex;
+    translate: -50% -50%;
+    pointer-events: none;
+}

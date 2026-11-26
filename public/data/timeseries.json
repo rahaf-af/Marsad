@@ -1,0 +1,2026 @@
+[
+  {
+    "period": "2021-Q1",
+    "year": 2021,
+    "quarter": 1,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 7.44,
+          "female": 21.72,
+          "total": 12.17
+        },
+        "nonSaudi": {
+          "male": 1.53,
+          "female": 5.38,
+          "total": 1.91
+        },
+        "total": {
+          "male": 3.37,
+          "female": 16.37,
+          "total": 5.8
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 59.97,
+          "female": 24.95,
+          "total": 42.41
+        },
+        "nonSaudi": {
+          "male": 92.13,
+          "female": 36.47,
+          "total": 80.45
+        },
+        "total": {
+          "male": 79.39,
+          "female": 28.26,
+          "total": 61.06
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 64.79,
+          "female": 31.87,
+          "total": 48.28
+        },
+        "nonSaudi": {
+          "male": 93.56,
+          "female": 38.55,
+          "total": 82.02
+        },
+        "total": {
+          "male": 82.16,
+          "female": 33.79,
+          "total": 64.82
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 59.16,
+          "female": 38.6,
+          "total": 53.09
+        },
+        "nonSaudi": {
+          "male": 3.25,
+          "female": 3.66,
+          "total": 3.29
+        },
+        "total": {
+          "male": 19.98,
+          "female": 25.66,
+          "total": 20.93
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.27,
+          "female": 60.85,
+          "total": 46.35
+        },
+        "nonSaudi": {
+          "male": 66.77,
+          "female": 11.12,
+          "total": 61.48
+        },
+        "total": {
+          "male": 58.84,
+          "female": 42.44,
+          "total": 56.12
+        }
+      }
+    }
+  },
+  {
+    "period": "2021-Q2",
+    "year": 2021,
+    "quarter": 2,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 6.39,
+          "female": 22.67,
+          "total": 11.8
+        },
+        "nonSaudi": {
+          "male": 2.23,
+          "female": 6.67,
+          "total": 2.68
+        },
+        "total": {
+          "male": 3.58,
+          "female": 17.5,
+          "total": 6.26
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 60.82,
+          "female": 24.84,
+          "total": 42.77
+        },
+        "nonSaudi": {
+          "male": 90.71,
+          "female": 35.89,
+          "total": 78.85
+        },
+        "total": {
+          "male": 78.53,
+          "female": 27.99,
+          "total": 60.11
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 64.96,
+          "female": 32.13,
+          "total": 48.49
+        },
+        "nonSaudi": {
+          "male": 92.77,
+          "female": 38.46,
+          "total": 81.02
+        },
+        "total": {
+          "male": 81.45,
+          "female": 33.93,
+          "total": 64.13
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 59.66,
+          "female": 39.46,
+          "total": 53.78
+        },
+        "nonSaudi": {
+          "male": 3.39,
+          "female": 3.94,
+          "total": 3.45
+        },
+        "total": {
+          "male": 21.14,
+          "female": 26.47,
+          "total": 22.05
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 39.66,
+          "female": 59.38,
+          "total": 45.4
+        },
+        "nonSaudi": {
+          "male": 68.46,
+          "female": 12.4,
+          "total": 62.94
+        },
+        "total": {
+          "male": 59.38,
+          "female": 42.19,
+          "total": 56.46
+        }
+      }
+    }
+  },
+  {
+    "period": "2021-Q3",
+    "year": 2021,
+    "quarter": 3,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 6.21,
+          "female": 22.16,
+          "total": 11.73
+        },
+        "nonSaudi": {
+          "male": 1.67,
+          "female": 7.43,
+          "total": 2.32
+        },
+        "total": {
+          "male": 3.18,
+          "female": 17.41,
+          "total": 6.12
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 61.04,
+          "female": 26.7,
+          "total": 43.82
+        },
+        "nonSaudi": {
+          "male": 91.13,
+          "female": 37.92,
+          "total": 79.35
+        },
+        "total": {
+          "male": 78.64,
+          "female": 29.9,
+          "total": 60.67
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 65.08,
+          "female": 34.3,
+          "total": 49.64
+        },
+        "nonSaudi": {
+          "male": 92.68,
+          "female": 40.97,
+          "total": 81.23
+        },
+        "total": {
+          "male": 81.23,
+          "female": 36.2,
+          "total": 64.62
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.52,
+          "female": 38.12,
+          "total": 52.28
+        },
+        "nonSaudi": {
+          "male": 5.06,
+          "female": 6.08,
+          "total": 5.17
+        },
+        "total": {
+          "male": 22.29,
+          "female": 26.55,
+          "total": 23.06
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.85,
+          "female": 60.33,
+          "total": 46.8
+        },
+        "nonSaudi": {
+          "male": 67.91,
+          "female": 12.67,
+          "total": 62.06
+        },
+        "total": {
+          "male": 59.19,
+          "female": 43.11,
+          "total": 56.27
+        }
+      }
+    }
+  },
+  {
+    "period": "2021-Q4",
+    "year": 2021,
+    "quarter": 4,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 5.37,
+          "female": 22.94,
+          "total": 11.48
+        },
+        "nonSaudi": {
+          "male": 2.13,
+          "female": 9.3,
+          "total": 2.79
+        },
+        "total": {
+          "male": 3.19,
+          "female": 19.11,
+          "total": 6.31
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 62.06,
+          "female": 26.78,
+          "total": 44.36
+        },
+        "nonSaudi": {
+          "male": 90.62,
+          "female": 30.8,
+          "total": 77.6
+        },
+        "total": {
+          "male": 78.94,
+          "female": 27.93,
+          "total": 60.29
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 65.58,
+          "female": 34.74,
+          "total": 50.11
+        },
+        "nonSaudi": {
+          "male": 92.59,
+          "female": 33.96,
+          "total": 79.83
+        },
+        "total": {
+          "male": 81.54,
+          "female": 34.52,
+          "total": 64.36
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.91,
+          "female": 36.63,
+          "total": 52.16
+        },
+        "nonSaudi": {
+          "male": 3.29,
+          "female": 5.99,
+          "total": 3.52
+        },
+        "total": {
+          "male": 21.17,
+          "female": 26.98,
+          "total": 22.16
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.62,
+          "female": 62.14,
+          "total": 47.14
+        },
+        "nonSaudi": {
+          "male": 73.8,
+          "female": 16.22,
+          "total": 68.82
+        },
+        "total": {
+          "male": 63.13,
+          "female": 47.68,
+          "total": 60.52
+        }
+      }
+    }
+  },
+  {
+    "period": "2022-Q1",
+    "year": 2022,
+    "quarter": 1,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 5.16,
+          "female": 20.32,
+          "total": 10.32
+        },
+        "nonSaudi": {
+          "male": 1.88,
+          "female": 6.52,
+          "total": 2.29
+        },
+        "total": {
+          "male": 2.93,
+          "female": 16.35,
+          "total": 5.45
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 61.7,
+          "female": 26.55,
+          "total": 44.07
+        },
+        "nonSaudi": {
+          "male": 89.84,
+          "female": 31.2,
+          "total": 77.48
+        },
+        "total": {
+          "male": 78.67,
+          "female": 27.88,
+          "total": 60.42
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 65.06,
+          "female": 33.32,
+          "total": 49.14
+        },
+        "nonSaudi": {
+          "male": 91.57,
+          "female": 33.37,
+          "total": 79.3
+        },
+        "total": {
+          "male": 81.04,
+          "female": 33.33,
+          "total": 63.9
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 59.25,
+          "female": 38.46,
+          "total": 52.97
+        },
+        "nonSaudi": {
+          "male": 3.2,
+          "female": 6.1,
+          "total": 3.44
+        },
+        "total": {
+          "male": 20.66,
+          "female": 28.07,
+          "total": 21.89
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.44,
+          "female": 60.97,
+          "total": 46.65
+        },
+        "nonSaudi": {
+          "male": 72.86,
+          "female": 17.81,
+          "total": 68.19
+        },
+        "total": {
+          "male": 62.76,
+          "female": 47.11,
+          "total": 60.17
+        }
+      }
+    }
+  },
+  {
+    "period": "2022-Q2",
+    "year": 2022,
+    "quarter": 2,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.92,
+          "female": 19.47,
+          "total": 9.96
+        },
+        "nonSaudi": {
+          "male": 1.51,
+          "female": 6.38,
+          "total": 1.92
+        },
+        "total": {
+          "male": 2.58,
+          "female": 15.91,
+          "total": 5.06
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.22,
+          "female": 28.25,
+          "total": 45.7
+        },
+        "nonSaudi": {
+          "male": 91.46,
+          "female": 30.38,
+          "total": 78.87
+        },
+        "total": {
+          "male": 80.44,
+          "female": 28.86,
+          "total": 62.13
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.49,
+          "female": 35.07,
+          "total": 50.76
+        },
+        "nonSaudi": {
+          "male": 92.87,
+          "female": 32.45,
+          "total": 80.41
+        },
+        "total": {
+          "male": 82.57,
+          "female": 34.32,
+          "total": 65.45
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.02,
+          "female": 37.02,
+          "total": 51.52
+        },
+        "nonSaudi": {
+          "male": 2.44,
+          "female": 6.56,
+          "total": 2.77
+        },
+        "total": {
+          "male": 19.49,
+          "female": 27.79,
+          "total": 20.86
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.55,
+          "female": 62.44,
+          "total": 48.02
+        },
+        "nonSaudi": {
+          "male": 76.08,
+          "female": 19.74,
+          "total": 71.61
+        },
+        "total": {
+          "male": 65.49,
+          "female": 49.5,
+          "total": 62.85
+        }
+      }
+    }
+  },
+  {
+    "period": "2022-Q3",
+    "year": 2022,
+    "quarter": 3,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.39,
+          "female": 20.66,
+          "total": 10.16
+        },
+        "nonSaudi": {
+          "male": 1.25,
+          "female": 6.14,
+          "total": 1.66
+        },
+        "total": {
+          "male": 2.22,
+          "female": 16.69,
+          "total": 4.95
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.39,
+          "female": 28.98,
+          "total": 46.21
+        },
+        "nonSaudi": {
+          "male": 92.69,
+          "female": 30.75,
+          "total": 79.77
+        },
+        "total": {
+          "male": 81.37,
+          "female": 29.5,
+          "total": 63.03
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.3,
+          "female": 36.53,
+          "total": 51.43
+        },
+        "nonSaudi": {
+          "male": 93.86,
+          "female": 32.76,
+          "total": 81.12
+        },
+        "total": {
+          "male": 83.22,
+          "female": 35.41,
+          "total": 66.31
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.72,
+          "female": 35.84,
+          "total": 50.87
+        },
+        "nonSaudi": {
+          "male": 2.77,
+          "female": 7.06,
+          "total": 3.11
+        },
+        "total": {
+          "male": 19.3,
+          "female": 26.97,
+          "total": 20.57
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 42.0,
+          "female": 63.78,
+          "total": 48.82
+        },
+        "nonSaudi": {
+          "male": 75.31,
+          "female": 21.37,
+          "total": 70.97
+        },
+        "total": {
+          "male": 65.29,
+          "female": 50.71,
+          "total": 62.87
+        }
+      }
+    }
+  },
+  {
+    "period": "2022-Q4",
+    "year": 2022,
+    "quarter": 4,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.31,
+          "female": 15.68,
+          "total": 8.21
+        },
+        "nonSaudi": {
+          "male": 1.07,
+          "female": 6.09,
+          "total": 1.47
+        },
+        "total": {
+          "male": 2.07,
+          "female": 13.03,
+          "total": 4.06
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 64.42,
+          "female": 29.92,
+          "total": 47.24
+        },
+        "nonSaudi": {
+          "male": 93.03,
+          "female": 30.17,
+          "total": 80.09
+        },
+        "total": {
+          "male": 82.07,
+          "female": 29.99,
+          "total": 63.82
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 67.32,
+          "female": 35.48,
+          "total": 51.47
+        },
+        "nonSaudi": {
+          "male": 94.04,
+          "female": 32.13,
+          "total": 81.29
+        },
+        "total": {
+          "male": 83.8,
+          "female": 34.48,
+          "total": 66.52
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.98,
+          "female": 37.62,
+          "total": 52.25
+        },
+        "nonSaudi": {
+          "male": 2.84,
+          "female": 8.44,
+          "total": 3.27
+        },
+        "total": {
+          "male": 19.72,
+          "female": 28.92,
+          "total": 21.23
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.79,
+          "female": 61.78,
+          "total": 47.4
+        },
+        "nonSaudi": {
+          "male": 77.85,
+          "female": 23.06,
+          "total": 73.6
+        },
+        "total": {
+          "male": 66.7,
+          "female": 50.24,
+          "total": 63.99
+        }
+      }
+    }
+  },
+  {
+    "period": "2023-Q1",
+    "year": 2023,
+    "quarter": 1,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.67,
+          "female": 16.33,
+          "total": 8.67
+        },
+        "nonSaudi": {
+          "male": 1.23,
+          "female": 6.42,
+          "total": 1.68
+        },
+        "total": {
+          "male": 2.27,
+          "female": 13.4,
+          "total": 4.31
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.97,
+          "female": 29.69,
+          "total": 46.96
+        },
+        "nonSaudi": {
+          "male": 92.8,
+          "female": 32.59,
+          "total": 80.51
+        },
+        "total": {
+          "male": 81.89,
+          "female": 30.56,
+          "total": 64.06
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 67.11,
+          "female": 35.49,
+          "total": 51.41
+        },
+        "nonSaudi": {
+          "male": 93.95,
+          "female": 34.83,
+          "total": 81.88
+        },
+        "total": {
+          "male": 83.79,
+          "female": 35.29,
+          "total": 66.94
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.66,
+          "female": 36.97,
+          "total": 51.86
+        },
+        "nonSaudi": {
+          "male": 2.54,
+          "female": 6.49,
+          "total": 2.87
+        },
+        "total": {
+          "male": 19.13,
+          "female": 27.24,
+          "total": 20.48
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.01,
+          "female": 62.39,
+          "total": 47.72
+        },
+        "nonSaudi": {
+          "male": 74.37,
+          "female": 20.0,
+          "total": 69.88
+        },
+        "total": {
+          "male": 64.51,
+          "female": 48.85,
+          "total": 61.92
+        }
+      }
+    }
+  },
+  {
+    "period": "2023-Q2",
+    "year": 2023,
+    "quarter": 2,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.63,
+          "female": 15.89,
+          "total": 8.45
+        },
+        "nonSaudi": {
+          "male": 1.08,
+          "female": 5.51,
+          "total": 1.44
+        },
+        "total": {
+          "male": 2.15,
+          "female": 12.93,
+          "total": 4.08
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.27,
+          "female": 29.28,
+          "total": 46.45
+        },
+        "nonSaudi": {
+          "male": 92.5,
+          "female": 30.18,
+          "total": 79.65
+        },
+        "total": {
+          "male": 81.43,
+          "female": 29.55,
+          "total": 63.4
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.34,
+          "female": 34.82,
+          "total": 50.74
+        },
+        "nonSaudi": {
+          "male": 93.51,
+          "female": 31.93,
+          "total": 80.82
+        },
+        "total": {
+          "male": 83.22,
+          "female": 33.94,
+          "total": 66.1
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.69,
+          "female": 35.35,
+          "total": 51.41
+        },
+        "nonSaudi": {
+          "male": 2.5,
+          "female": 6.71,
+          "total": 2.83
+        },
+        "total": {
+          "male": 19.04,
+          "female": 26.49,
+          "total": 20.25
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.78,
+          "female": 63.68,
+          "total": 47.92
+        },
+        "nonSaudi": {
+          "male": 75.83,
+          "female": 22.36,
+          "total": 71.65
+        },
+        "total": {
+          "male": 65.51,
+          "female": 50.9,
+          "total": 63.14
+        }
+      }
+    }
+  },
+  {
+    "period": "2023-Q3",
+    "year": 2023,
+    "quarter": 3,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.73,
+          "female": 16.57,
+          "total": 8.81
+        },
+        "nonSaudi": {
+          "male": 1.08,
+          "female": 6.56,
+          "total": 1.53
+        },
+        "total": {
+          "male": 2.17,
+          "female": 13.67,
+          "total": 4.24
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 62.57,
+          "female": 29.58,
+          "total": 46.29
+        },
+        "nonSaudi": {
+          "male": 92.83,
+          "female": 30.48,
+          "total": 79.91
+        },
+        "total": {
+          "male": 81.4,
+          "female": 29.85,
+          "total": 63.54
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 65.67,
+          "female": 35.45,
+          "total": 50.76
+        },
+        "nonSaudi": {
+          "male": 93.85,
+          "female": 32.62,
+          "total": 81.16
+        },
+        "total": {
+          "male": 83.2,
+          "female": 34.58,
+          "total": 66.35
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.81,
+          "female": 35.26,
+          "total": 51.39
+        },
+        "nonSaudi": {
+          "male": 2.32,
+          "female": 8.0,
+          "total": 2.77
+        },
+        "total": {
+          "male": 18.72,
+          "female": 26.73,
+          "total": 20.02
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 40.64,
+          "female": 63.79,
+          "total": 47.93
+        },
+        "nonSaudi": {
+          "male": 76.42,
+          "female": 19.09,
+          "total": 71.89
+        },
+        "total": {
+          "male": 66.03,
+          "female": 49.79,
+          "total": 63.39
+        }
+      }
+    }
+  },
+  {
+    "period": "2023-Q4",
+    "year": 2023,
+    "quarter": 4,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.6,
+          "female": 13.91,
+          "total": 7.78
+        },
+        "nonSaudi": {
+          "male": 0.58,
+          "female": 4.72,
+          "total": 0.94
+        },
+        "total": {
+          "male": 1.75,
+          "female": 11.11,
+          "total": 3.42
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 62.38,
+          "female": 30.14,
+          "total": 46.53
+        },
+        "nonSaudi": {
+          "male": 94.72,
+          "female": 32.23,
+          "total": 81.69
+        },
+        "total": {
+          "male": 82.6,
+          "female": 30.79,
+          "total": 64.71
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 65.39,
+          "female": 35.01,
+          "total": 50.45
+        },
+        "nonSaudi": {
+          "male": 95.28,
+          "female": 33.82,
+          "total": 82.47
+        },
+        "total": {
+          "male": 84.08,
+          "female": 34.64,
+          "total": 67.0
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 58.06,
+          "female": 34.37,
+          "total": 50.51
+        },
+        "nonSaudi": {
+          "male": 2.92,
+          "female": 7.72,
+          "total": 3.31
+        },
+        "total": {
+          "male": 18.53,
+          "female": 25.66,
+          "total": 19.7
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.29,
+          "female": 64.61,
+          "total": 48.72
+        },
+        "nonSaudi": {
+          "male": 76.6,
+          "female": 20.13,
+          "total": 71.95
+        },
+        "total": {
+          "male": 66.6,
+          "female": 50.07,
+          "total": 63.89
+        }
+      }
+    }
+  },
+  {
+    "period": "2024-Q1",
+    "year": 2024,
+    "quarter": 1,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.21,
+          "female": 14.17,
+          "total": 7.61
+        },
+        "nonSaudi": {
+          "male": 0.75,
+          "female": 5.39,
+          "total": 1.1
+        },
+        "total": {
+          "male": 1.79,
+          "female": 11.83,
+          "total": 3.54
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.56,
+          "female": 30.7,
+          "total": 47.45
+        },
+        "nonSaudi": {
+          "male": 92.55,
+          "female": 26.79,
+          "total": 78.77
+        },
+        "total": {
+          "male": 81.67,
+          "female": 29.47,
+          "total": 63.66
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.36,
+          "female": 35.77,
+          "total": 51.36
+        },
+        "nonSaudi": {
+          "male": 93.25,
+          "female": 28.31,
+          "total": 79.65
+        },
+        "total": {
+          "male": 83.16,
+          "female": 33.42,
+          "total": 66.0
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.54,
+          "female": 32.83,
+          "total": 49.7
+        },
+        "nonSaudi": {
+          "male": 2.81,
+          "female": 8.17,
+          "total": 3.2
+        },
+        "total": {
+          "male": 18.81,
+          "female": 25.78,
+          "total": 19.92
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.72,
+          "female": 65.93,
+          "total": 49.4
+        },
+        "nonSaudi": {
+          "male": 77.94,
+          "female": 22.65,
+          "total": 74.0
+        },
+        "total": {
+          "male": 67.35,
+          "female": 53.56,
+          "total": 65.15
+        }
+      }
+    }
+  },
+  {
+    "period": "2024-Q2",
+    "year": 2024,
+    "quarter": 2,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 3.99,
+          "female": 12.84,
+          "total": 7.09
+        },
+        "nonSaudi": {
+          "male": 0.84,
+          "female": 5.03,
+          "total": 1.14
+        },
+        "total": {
+          "male": 1.74,
+          "female": 10.75,
+          "total": 3.32
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.63,
+          "female": 30.84,
+          "total": 47.15
+        },
+        "nonSaudi": {
+          "male": 92.67,
+          "female": 27.47,
+          "total": 79.36
+        },
+        "total": {
+          "male": 82.13,
+          "female": 29.8,
+          "total": 64.01
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.28,
+          "female": 35.38,
+          "total": 50.75
+        },
+        "nonSaudi": {
+          "male": 93.45,
+          "female": 28.93,
+          "total": 80.28
+        },
+        "total": {
+          "male": 83.59,
+          "female": 33.39,
+          "total": 66.2
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.07,
+          "female": 32.83,
+          "total": 49.1
+        },
+        "nonSaudi": {
+          "male": 2.25,
+          "female": 8.0,
+          "total": 2.65
+        },
+        "total": {
+          "male": 17.66,
+          "female": 25.77,
+          "total": 18.97
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 42.16,
+          "female": 66.12,
+          "total": 50.04
+        },
+        "nonSaudi": {
+          "male": 78.45,
+          "female": 23.82,
+          "total": 74.59
+        },
+        "total": {
+          "male": 68.25,
+          "female": 54.1,
+          "total": 65.97
+        }
+      }
+    }
+  },
+  {
+    "period": "2024-Q3",
+    "year": 2024,
+    "quarter": 3,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.66,
+          "female": 13.56,
+          "total": 7.81
+        },
+        "nonSaudi": {
+          "male": 0.94,
+          "female": 7.15,
+          "total": 1.38
+        },
+        "total": {
+          "male": 2.01,
+          "female": 11.91,
+          "total": 3.73
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.75,
+          "female": 31.3,
+          "total": 47.44
+        },
+        "nonSaudi": {
+          "male": 92.75,
+          "female": 25.93,
+          "total": 79.11
+        },
+        "total": {
+          "male": 82.31,
+          "female": 29.63,
+          "total": 64.11
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.86,
+          "female": 36.21,
+          "total": 51.46
+        },
+        "nonSaudi": {
+          "male": 93.63,
+          "female": 27.93,
+          "total": 80.22
+        },
+        "total": {
+          "male": 84.0,
+          "female": 33.63,
+          "total": 66.6
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 56.35,
+          "female": 33.02,
+          "total": 48.61
+        },
+        "nonSaudi": {
+          "male": 2.18,
+          "female": 7.35,
+          "total": 2.53
+        },
+        "total": {
+          "male": 17.28,
+          "female": 26.03,
+          "total": 18.68
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 43.09,
+          "female": 66.23,
+          "total": 50.77
+        },
+        "nonSaudi": {
+          "male": 79.03,
+          "female": 25.44,
+          "total": 75.44
+        },
+        "total": {
+          "male": 69.01,
+          "female": 55.13,
+          "total": 66.8
+        }
+      }
+    }
+  },
+  {
+    "period": "2024-Q4",
+    "year": 2024,
+    "quarter": 4,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.33,
+          "female": 11.85,
+          "total": 7.0
+        },
+        "nonSaudi": {
+          "male": 1.12,
+          "female": 6.17,
+          "total": 1.48
+        },
+        "total": {
+          "male": 2.03,
+          "female": 10.36,
+          "total": 3.48
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.36,
+          "female": 31.77,
+          "total": 47.48
+        },
+        "nonSaudi": {
+          "male": 92.2,
+          "female": 26.14,
+          "total": 78.69
+        },
+        "total": {
+          "male": 81.94,
+          "female": 30.0,
+          "total": 64.05
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.23,
+          "female": 36.04,
+          "total": 51.06
+        },
+        "nonSaudi": {
+          "male": 93.25,
+          "female": 27.86,
+          "total": 79.87
+        },
+        "total": {
+          "male": 83.63,
+          "female": 33.46,
+          "total": 66.35
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 56.49,
+          "female": 33.06,
+          "total": 48.61
+        },
+        "nonSaudi": {
+          "male": 2.25,
+          "female": 7.0,
+          "total": 2.58
+        },
+        "total": {
+          "male": 17.19,
+          "female": 25.9,
+          "total": 18.59
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 42.85,
+          "female": 66.0,
+          "total": 50.63
+        },
+        "nonSaudi": {
+          "male": 79.18,
+          "female": 24.55,
+          "total": 75.47
+        },
+        "total": {
+          "male": 69.18,
+          "female": 54.61,
+          "total": 66.83
+        }
+      }
+    }
+  },
+  {
+    "period": "2025-Q1",
+    "year": 2025,
+    "quarter": 1,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.0,
+          "female": 10.54,
+          "total": 6.32
+        },
+        "nonSaudi": {
+          "male": 0.62,
+          "female": 3.05,
+          "total": 0.85
+        },
+        "total": {
+          "male": 1.55,
+          "female": 8.11,
+          "total": 2.76
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 63.75,
+          "female": 32.5,
+          "total": 48.04
+        },
+        "nonSaudi": {
+          "male": 94.03,
+          "female": 35.63,
+          "total": 82.04
+        },
+        "total": {
+          "male": 83.4,
+          "female": 33.5,
+          "total": 66.28
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 66.41,
+          "female": 36.33,
+          "total": 51.28
+        },
+        "nonSaudi": {
+          "male": 94.62,
+          "female": 36.75,
+          "total": 82.74
+        },
+        "total": {
+          "male": 84.72,
+          "female": 36.46,
+          "total": 68.16
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.5,
+          "female": 33.48,
+          "total": 49.33
+        },
+        "nonSaudi": {
+          "male": 1.84,
+          "female": 4.33,
+          "total": 2.06
+        },
+        "total": {
+          "male": 16.77,
+          "female": 23.53,
+          "total": 17.94
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 42.21,
+          "female": 66.12,
+          "total": 50.34
+        },
+        "nonSaudi": {
+          "male": 75.65,
+          "female": 16.48,
+          "total": 70.38
+        },
+        "total": {
+          "male": 66.68,
+          "female": 49.19,
+          "total": 63.64
+        }
+      }
+    }
+  },
+  {
+    "period": "2025-Q2",
+    "year": 2025,
+    "quarter": 2,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.32,
+          "female": 11.29,
+          "total": 6.78
+        },
+        "nonSaudi": {
+          "male": 1.19,
+          "female": 3.44,
+          "total": 1.39
+        },
+        "total": {
+          "male": 2.02,
+          "female": 8.65,
+          "total": 3.21
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 61.26,
+          "female": 30.64,
+          "total": 45.87
+        },
+        "nonSaudi": {
+          "male": 92.78,
+          "female": 35.82,
+          "total": 81.25
+        },
+        "total": {
+          "male": 81.84,
+          "female": 32.3,
+          "total": 64.96
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 64.03,
+          "female": 34.55,
+          "total": 49.21
+        },
+        "nonSaudi": {
+          "male": 93.9,
+          "female": 37.09,
+          "total": 82.39
+        },
+        "total": {
+          "male": 83.52,
+          "female": 35.36,
+          "total": 67.11
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 55.66,
+          "female": 33.53,
+          "total": 48.22
+        },
+        "nonSaudi": {
+          "male": 1.75,
+          "female": 4.34,
+          "total": 1.98
+        },
+        "total": {
+          "male": 15.77,
+          "female": 23.15,
+          "total": 17.02
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 43.26,
+          "female": 65.56,
+          "total": 50.75
+        },
+        "nonSaudi": {
+          "male": 76.82,
+          "female": 16.01,
+          "total": 71.39
+        },
+        "total": {
+          "male": 68.1,
+          "female": 47.94,
+          "total": 64.68
+        }
+      }
+    }
+  },
+  {
+    "period": "2025-Q3",
+    "year": 2025,
+    "quarter": 3,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 5.05,
+          "female": 12.07,
+          "total": 7.48
+        },
+        "nonSaudi": {
+          "male": 1.17,
+          "female": 4.0,
+          "total": 1.41
+        },
+        "total": {
+          "male": 2.19,
+          "female": 9.39,
+          "total": 3.44
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 61.09,
+          "female": 29.67,
+          "total": 45.3
+        },
+        "nonSaudi": {
+          "male": 92.93,
+          "female": 33.65,
+          "total": 80.93
+        },
+        "total": {
+          "male": 81.97,
+          "female": 30.96,
+          "total": 64.64
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 64.34,
+          "female": 33.74,
+          "total": 48.96
+        },
+        "nonSaudi": {
+          "male": 94.02,
+          "female": 35.06,
+          "total": 82.09
+        },
+        "total": {
+          "male": 83.81,
+          "female": 34.17,
+          "total": 66.94
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.49,
+          "female": 34.69,
+          "total": 49.98
+        },
+        "nonSaudi": {
+          "male": 1.92,
+          "female": 3.25,
+          "total": 2.04
+        },
+        "total": {
+          "male": 16.18,
+          "female": 23.63,
+          "total": 17.39
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.89,
+          "female": 64.53,
+          "total": 49.34
+        },
+        "nonSaudi": {
+          "male": 77.64,
+          "female": 17.43,
+          "total": 72.57
+        },
+        "total": {
+          "male": 68.47,
+          "female": 47.97,
+          "total": 65.13
+        }
+      }
+    }
+  },
+  {
+    "period": "2025-Q4",
+    "year": 2025,
+    "quarter": 4,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 5.58,
+          "female": 10.31,
+          "total": 7.24
+        },
+        "nonSaudi": {
+          "male": 1.47,
+          "female": 3.95,
+          "total": 1.69
+        },
+        "total": {
+          "male": 2.54,
+          "female": 8.15,
+          "total": 3.53
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 61.08,
+          "female": 30.96,
+          "total": 45.94
+        },
+        "nonSaudi": {
+          "male": 92.54,
+          "female": 34.54,
+          "total": 80.73
+        },
+        "total": {
+          "male": 81.88,
+          "female": 32.14,
+          "total": 65.05
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 64.69,
+          "female": 34.52,
+          "total": 49.52
+        },
+        "nonSaudi": {
+          "male": 93.92,
+          "female": 35.96,
+          "total": 82.12
+        },
+        "total": {
+          "male": 84.02,
+          "female": 35.0,
+          "total": 67.43
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.17,
+          "female": 33.77,
+          "total": 49.24
+        },
+        "nonSaudi": {
+          "male": 1.91,
+          "female": 3.01,
+          "total": 2.01
+        },
+        "total": {
+          "male": 15.88,
+          "female": 22.85,
+          "total": 17.04
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 42.17,
+          "female": 65.43,
+          "total": 50.05
+        },
+        "nonSaudi": {
+          "male": 76.67,
+          "female": 17.14,
+          "total": 71.49
+        },
+        "total": {
+          "male": 67.95,
+          "female": 48.29,
+          "total": 64.67
+        }
+      }
+    }
+  },
+  {
+    "period": "2026-Q1",
+    "year": 2026,
+    "quarter": 1,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.9,
+          "female": 9.0,
+          "total": 6.4
+        },
+        "nonSaudi": {
+          "male": 1.2,
+          "female": 3.8,
+          "total": 1.5
+        },
+        "total": {
+          "male": 2.2,
+          "female": 7.2,
+          "total": 3.1
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 61.04,
+          "female": 30.81,
+          "total": 45.84
+        },
+        "nonSaudi": {
+          "male": 92.96,
+          "female": 33.73,
+          "total": 80.75
+        },
+        "total": {
+          "male": 82.21,
+          "female": 31.79,
+          "total": 65.12
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 64.21,
+          "female": 33.88,
+          "total": 48.96
+        },
+        "nonSaudi": {
+          "male": 94.11,
+          "female": 35.05,
+          "total": 81.94
+        },
+        "total": {
+          "male": 84.04,
+          "female": 34.27,
+          "total": 67.17
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.61,
+          "female": 32.4,
+          "total": 49.09
+        },
+        "nonSaudi": {
+          "male": 2.05,
+          "female": 3.28,
+          "total": 2.15
+        },
+        "total": {
+          "male": 15.94,
+          "female": 22.02,
+          "total": 16.94
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.42,
+          "female": 66.54,
+          "total": 49.91
+        },
+        "nonSaudi": {
+          "male": 78.54,
+          "female": 19.34,
+          "total": 73.44
+        },
+        "total": {
+          "male": 69.26,
+          "female": 49.72,
+          "total": 66.02
+        }
+      }
+    }
+  },
+  {
+    "period": "2026-Q2",
+    "year": 2026,
+    "quarter": 2,
+    "values": {
+      "unemployment_rate": {
+        "saudi": {
+          "male": 4.84,
+          "female": 9.56,
+          "total": 6.48
+        },
+        "nonSaudi": {
+          "male": 1.09,
+          "female": 3.82,
+          "total": 1.33
+        },
+        "total": {
+          "male": 2.05,
+          "female": 7.59,
+          "total": 3.0
+        }
+      },
+      "employment_to_population_ratio": {
+        "saudi": {
+          "male": 60.79,
+          "female": 30.46,
+          "total": 45.54
+        },
+        "nonSaudi": {
+          "male": 93.6,
+          "female": 33.4,
+          "total": 81.12
+        },
+        "total": {
+          "male": 82.52,
+          "female": 31.45,
+          "total": 65.17
+        }
+      },
+      "labor_force_participation_rate": {
+        "saudi": {
+          "male": 63.88,
+          "female": 33.68,
+          "total": 48.7
+        },
+        "nonSaudi": {
+          "male": 94.63,
+          "female": 34.73,
+          "total": 82.21
+        },
+        "total": {
+          "male": 84.25,
+          "female": 34.03,
+          "total": 67.19
+        }
+      },
+      "public_sector_share": {
+        "saudi": {
+          "male": 57.78,
+          "female": 31.72,
+          "total": 49.02
+        },
+        "nonSaudi": {
+          "male": 1.73,
+          "female": 3.86,
+          "total": 1.91
+        },
+        "total": {
+          "male": 15.66,
+          "female": 21.76,
+          "total": 16.66
+        }
+      },
+      "private_sector_share": {
+        "saudi": {
+          "male": 41.57,
+          "female": 66.94,
+          "total": 50.1
+        },
+        "nonSaudi": {
+          "male": 79.23,
+          "female": 18.11,
+          "total": 74.02
+        },
+        "total": {
+          "male": 69.87,
+          "female": 49.48,
+          "total": 66.53
+        }
+      }
+    }
+  }
+]

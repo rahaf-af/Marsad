@@ -1,0 +1,101 @@
+/* Text, then the woven strip on the end side. */
+.story {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    overflow: hidden;
+    border: 1px solid var(--m-border);
+    border-radius: var(--m-radius-lg);
+    background: var(--m-surface);
+}
+
+/* Only one strip shows at a time: down the side on wide screens, across the top on small ones. */
+.weaveTop {
+    display: none;
+}
+
+/* The story and the three facts side by side, so the wide card is used, not left empty. */
+.content {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    align-items: center;
+    gap: var(--m-space-xxl);
+    padding: var(--m-space-xxl);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-md);
+}
+
+.title {
+    margin: 0;
+    font-size: var(--m-font-title);
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--m-text);
+}
+
+.body {
+    margin: 0;
+    color: var(--m-text-secondary);
+    line-height: 1.9;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-md);
+    margin: 0;
+}
+
+.fact {
+    padding: var(--m-space-md) var(--m-space-lg);
+    border-radius: var(--m-radius-md);
+    background: var(--m-primary-soft);
+}
+
+.factValue {
+    font-size: var(--m-font-lg);
+    font-weight: 700;
+    color: var(--m-primary-text);
+    font-variant-numeric: tabular-nums;
+}
+
+.factLabel {
+    margin: var(--m-space-xxs) 0 0;
+    font-size: var(--m-font-sm);
+    line-height: 1.6;
+    color: var(--m-text);
+}
+
+/* Laptop: story on top, the facts in a row under it. */
+@media (max-width: 1199px) {
+    .content {
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--m-space-xl);
+    }
+
+    .facts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--m-layout-filter-min-width)), 1fr));
+    }
+}
+
+@media (max-width: 899px) {
+    .story {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .weaveTop {
+        display: block;
+    }
+
+    .weaveSide {
+        display: none;
+    }
+
+    .content {
+        padding: var(--m-space-xl);
+    }
+}

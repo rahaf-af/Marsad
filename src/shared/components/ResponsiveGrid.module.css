@@ -1,0 +1,9 @@
+.grid {
+    display: grid;
+    /*
+   * auto-fit stretches the cards to fill the row (auto-fill would leave empty columns).
+   * min(100%, …) stops a card from overflowing on very narrow phones.
+   */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--grid-min)), 1fr));
+    gap: var(--m-space-lg);
+}

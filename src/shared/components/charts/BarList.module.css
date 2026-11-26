@@ -1,0 +1,61 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    /* Rows spread out evenly when the card is taller than the list. */
+    justify-content: space-around;
+    gap: var(--m-space-md);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.meta {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--m-space-md);
+    margin-block-end: var(--m-space-xs);
+}
+
+.label {
+    min-width: 0;
+    font-size: var(--m-font-md);
+    color: var(--m-text);
+    line-height: 1.5;
+}
+
+.value {
+    flex-shrink: 0;
+    font-size: var(--m-font-md);
+    font-weight: 600;
+    color: var(--m-text);
+    font-variant-numeric: tabular-nums;
+}
+
+.track {
+    height: var(--m-layout-bar-track-height);
+    border-radius: var(--m-radius-pill);
+    background: color-mix(in srgb, var(--bar-color) 12%, transparent);
+    overflow: hidden;
+}
+
+/* Grows from the start edge (right in Arabic, left in English) when the data arrives. */
+.bar {
+    height: 100%;
+    border-radius: inherit;
+    background: var(--bar-color);
+    transform: scaleX(var(--bar-size));
+    transform-origin: left;
+    transition: transform 0.6s ease;
+    animation: grow 0.6s ease;
+}
+
+:global([dir='rtl']) .bar {
+    transform-origin: right;
+}
+
+@keyframes grow {
+    from {
+        transform: scaleX(0);
+    }
+}

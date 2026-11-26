@@ -1,0 +1,564 @@
+{
+  "source": {
+    "ar": "بيانات تقديرية من مسح القوى العاملة - الهيئة العامة للإحصاء",
+    "en": "Estimates from the Labour Force Survey - General Authority for Statistics (GASTAT)",
+    "url": "https://www.stats.gov.sa/ar/"
+  },
+  "latestPeriod": "2026-Q2",
+  "quarters": [
+    {
+      "period": "2021-Q1",
+      "year": 2021,
+      "quarter": 1,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2021-Q2",
+      "year": 2021,
+      "quarter": 2,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2021-Q3",
+      "year": 2021,
+      "quarter": 3,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2021-Q4",
+      "year": 2021,
+      "quarter": 4,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2022-Q1",
+      "year": 2022,
+      "quarter": 1,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2022-Q2",
+      "year": 2022,
+      "quarter": 2,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2022-Q3",
+      "year": 2022,
+      "quarter": 3,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2022-Q4",
+      "year": 2022,
+      "quarter": 4,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2023-Q1",
+      "year": 2023,
+      "quarter": 1,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2023-Q2",
+      "year": 2023,
+      "quarter": 2,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2023-Q3",
+      "year": 2023,
+      "quarter": 3,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2023-Q4",
+      "year": 2023,
+      "quarter": 4,
+      "missingTables": [
+        "wage_by_activity_group"
+      ]
+    },
+    {
+      "period": "2024-Q1",
+      "year": 2024,
+      "quarter": 1,
+      "missingTables": []
+    },
+    {
+      "period": "2024-Q2",
+      "year": 2024,
+      "quarter": 2,
+      "missingTables": []
+    },
+    {
+      "period": "2024-Q3",
+      "year": 2024,
+      "quarter": 3,
+      "missingTables": []
+    },
+    {
+      "period": "2024-Q4",
+      "year": 2024,
+      "quarter": 4,
+      "missingTables": []
+    },
+    {
+      "period": "2025-Q1",
+      "year": 2025,
+      "quarter": 1,
+      "missingTables": []
+    },
+    {
+      "period": "2025-Q2",
+      "year": 2025,
+      "quarter": 2,
+      "missingTables": []
+    },
+    {
+      "period": "2025-Q3",
+      "year": 2025,
+      "quarter": 3,
+      "missingTables": []
+    },
+    {
+      "period": "2025-Q4",
+      "year": 2025,
+      "quarter": 4,
+      "missingTables": []
+    },
+    {
+      "period": "2026-Q1",
+      "year": 2026,
+      "quarter": 1,
+      "missingTables": []
+    },
+    {
+      "period": "2026-Q2",
+      "year": 2026,
+      "quarter": 2,
+      "missingTables": []
+    }
+  ],
+  "timeseriesRange": [
+    "2021-Q1",
+    "2026-Q2"
+  ],
+  "methodologyNotes": [
+    "الربع الأول 2021 الى الربع الاول 2022: اجراء المقابلات الهاتفية بمساعدة الحاسوب (CATI)",
+    "من الربع الثاني 2022 الى الربع الرابع 2024: اجراء المقابلات الشخصية والهاتفية بمساعدة الحاسوب (CAPI & CATI)",
+    "من الربع الأول 2025 : اجراء المقابلات الشخصية (CAPI)",
+    "من الربع الثاني 2025 : اجراء المقابلات الشخصية والهاتفية بمساعدة الحاسوب (CAPI & CATI)"
+  ],
+  "indicators": {
+    "unemployment_rate": {
+      "ar": "معدل البطالة",
+      "en": "Unemployment rate",
+      "unit": "percent"
+    },
+    "employment_to_population_ratio": {
+      "ar": "معدل المشتغلين من السكان في سن العمل",
+      "en": "Employment-to-population ratio",
+      "unit": "percent"
+    },
+    "labor_force_participation_rate": {
+      "ar": "معدل المشاركة في القوى العاملة",
+      "en": "Labour force participation rate",
+      "unit": "percent"
+    },
+    "public_sector_share": {
+      "ar": "نسبة المشتغلين في القطاع العام",
+      "en": "Share of employed in the public sector",
+      "unit": "percent"
+    },
+    "private_sector_share": {
+      "ar": "نسبة المشتغلين في القطاع الخاص",
+      "en": "Share of employed in the private sector",
+      "unit": "percent"
+    },
+    "unemployment_by_age": {
+      "ar": "معدل البطالة حسب الفئة العمرية",
+      "en": "Unemployment rate by age group",
+      "unit": "percent"
+    },
+    "unemployment_by_region": {
+      "ar": "معدل البطالة حسب المنطقة الإدارية",
+      "en": "Unemployment rate by region",
+      "unit": "percent"
+    },
+    "participation_by_region": {
+      "ar": "معدل المشاركة حسب المنطقة الإدارية",
+      "en": "Participation rate by region",
+      "unit": "percent"
+    },
+    "employed_by_education": {
+      "ar": "توزيع المشتغلين حسب المستوى التعليمي",
+      "en": "Employed by education level",
+      "unit": "percent"
+    },
+    "employed_by_occupation": {
+      "ar": "توزيع المشتغلين حسب المهنة",
+      "en": "Employed by occupation",
+      "unit": "percent"
+    },
+    "employed_by_activity": {
+      "ar": "توزيع المشتغلين حسب النشاط الاقتصادي",
+      "en": "Employed by economic activity",
+      "unit": "percent"
+    },
+    "employed_by_sector": {
+      "ar": "توزيع المشتغلين حسب القطاع",
+      "en": "Employed by sector",
+      "unit": "percent"
+    },
+    "wage_by_age": {
+      "ar": "متوسط الأجر الشهري حسب الفئة العمرية",
+      "en": "Average monthly wage by age group",
+      "unit": "SAR"
+    },
+    "wage_by_activity_group": {
+      "ar": "متوسط الأجر الشهري حسب النشاط",
+      "en": "Average monthly wage by activity group",
+      "unit": "SAR"
+    }
+  },
+  "nationality": {
+    "saudi": {
+      "ar": "السعوديون",
+      "en": "Saudi"
+    },
+    "nonSaudi": {
+      "ar": "غير السعوديين",
+      "en": "Non-Saudi"
+    },
+    "total": {
+      "ar": "الإجمالي",
+      "en": "Total"
+    }
+  },
+  "gender": {
+    "male": {
+      "ar": "الذكور",
+      "en": "Male"
+    },
+    "female": {
+      "ar": "الإناث",
+      "en": "Female"
+    },
+    "total": {
+      "ar": "الإجمالي",
+      "en": "Total"
+    }
+  },
+  "categories": {
+    "region": {
+      "riyadh": {
+        "ar": "الرياض",
+        "en": "Riyadh"
+      },
+      "makkah": {
+        "ar": "مكة المكرمة",
+        "en": "Makkah"
+      },
+      "madinah": {
+        "ar": "المدينة المنورة",
+        "en": "Madinah"
+      },
+      "qassim": {
+        "ar": "القصيم",
+        "en": "Qassim"
+      },
+      "eastern": {
+        "ar": "المنطقة الشرقية",
+        "en": "Eastern Province"
+      },
+      "asir": {
+        "ar": "عسير",
+        "en": "Asir"
+      },
+      "tabuk": {
+        "ar": "تبوك",
+        "en": "Tabuk"
+      },
+      "hail": {
+        "ar": "حائل",
+        "en": "Hail"
+      },
+      "northern_borders": {
+        "ar": "الحدود الشمالية",
+        "en": "Northern Borders"
+      },
+      "jazan": {
+        "ar": "جازان",
+        "en": "Jazan"
+      },
+      "najran": {
+        "ar": "نجران",
+        "en": "Najran"
+      },
+      "baha": {
+        "ar": "الباحة",
+        "en": "Al Baha"
+      },
+      "jouf": {
+        "ar": "الجوف",
+        "en": "Al Jouf"
+      }
+    },
+    "age": {
+      "15_24": {
+        "ar": "15-24",
+        "en": "15–24"
+      },
+      "25_34": {
+        "ar": "25-34",
+        "en": "25–34"
+      },
+      "35_44": {
+        "ar": "35-44",
+        "en": "35–44"
+      },
+      "45_54": {
+        "ar": "45-54",
+        "en": "45–54"
+      },
+      "55_plus": {
+        "ar": "+ 55",
+        "en": "55+"
+      }
+    },
+    "education": {
+      "none": {
+        "ar": "لا يوجد شهادة تعليمية",
+        "en": "No qualification"
+      },
+      "early_childhood": {
+        "ar": "تعليم الطفولة المبكرة",
+        "en": "Early childhood education"
+      },
+      "primary": {
+        "ar": "تعليم ابتدائي",
+        "en": "Primary"
+      },
+      "intermediate": {
+        "ar": "تعليم متوسط",
+        "en": "Intermediate"
+      },
+      "secondary": {
+        "ar": "تعليم ثانوي",
+        "en": "Secondary"
+      },
+      "associate_diploma": {
+        "ar": "دبلوم مشارك",
+        "en": "Associate diploma"
+      },
+      "intermediate_diploma": {
+        "ar": "دبلوم متوسط",
+        "en": "Intermediate diploma"
+      },
+      "bachelor": {
+        "ar": "بكالوريوس أو مايعادلها",
+        "en": "Bachelor's or equivalent"
+      },
+      "master": {
+        "ar": "ماجستير أو ما يعادلها",
+        "en": "Master's or equivalent"
+      },
+      "doctorate": {
+        "ar": "دكتوراه",
+        "en": "Doctorate"
+      }
+    },
+    "occupation": {
+      "managers": {
+        "ar": "المديرون",
+        "en": "Managers"
+      },
+      "professionals": {
+        "ar": "الاختصاصيون",
+        "en": "Professionals"
+      },
+      "technicians": {
+        "ar": "الفنيون والاختصاصيون المساعدون",
+        "en": "Technicians and associate professionals"
+      },
+      "clerical": {
+        "ar": "عاملو الدعم المكتبي",
+        "en": "Clerical support workers"
+      },
+      "service_sales": {
+        "ar": "عاملو الخدمات والمبيعات",
+        "en": "Service and sales workers"
+      },
+      "agriculture": {
+        "ar": "العاملون المهرة في الزراعة والغابات ومزارع الأسماك",
+        "en": "Skilled agricultural, forestry and fishery workers"
+      },
+      "craft": {
+        "ar": "عاملو الحرف ومن يرتبط بهم",
+        "en": "Craft and related trades workers"
+      },
+      "operators": {
+        "ar": "مشغلو المصانع والآلات وعاملو التجميع",
+        "en": "Plant and machine operators and assemblers"
+      },
+      "elementary": {
+        "ar": "المهن الأولية",
+        "en": "Elementary occupations"
+      },
+      "not_stated": {
+        "ar": "غير مبين",
+        "en": "Not stated"
+      }
+    },
+    "activity": {
+      "agriculture": {
+        "ar": "الزراعة والحراجة وصيد الأسماك",
+        "en": "Agriculture, forestry and fishing"
+      },
+      "mining": {
+        "ar": "التعدين واستغلال المحاجر",
+        "en": "Mining and quarrying"
+      },
+      "manufacturing": {
+        "ar": "الصناعة التحويلية",
+        "en": "Manufacturing"
+      },
+      "electricity": {
+        "ar": "إمدادات الكهرباء والغاز والبخار وتكييف الهواء",
+        "en": "Electricity, gas, steam and air conditioning"
+      },
+      "water": {
+        "ar": "إمدادات المياه وأنشطة الصرف الصحي وإدارة النفايات ومعالجتها",
+        "en": "Water supply, sewerage and waste management"
+      },
+      "construction": {
+        "ar": "التشييد",
+        "en": "Construction"
+      },
+      "trade": {
+        "ar": "تجارة الجملة والتجزئة، وإصلاح المركبات ذات المحركات والدراجات النارية",
+        "en": "Wholesale and retail trade"
+      },
+      "transport": {
+        "ar": "النقل والتخزين",
+        "en": "Transportation and storage"
+      },
+      "hospitality": {
+        "ar": "أنشطة خدمات الإقامة والطعام",
+        "en": "Accommodation and food services"
+      },
+      "ict": {
+        "ar": "المعلومات والاتصالات",
+        "en": "Information and communication"
+      },
+      "finance": {
+        "ar": "الأنشطة المالية وأنشطة التأمين",
+        "en": "Financial and insurance activities"
+      },
+      "real_estate": {
+        "ar": "الأنشطة العقارية",
+        "en": "Real estate activities"
+      },
+      "professional": {
+        "ar": "الأنشطة المهنية والعلمية والتقنية",
+        "en": "Professional, scientific and technical activities"
+      },
+      "administrative": {
+        "ar": "أنشطة الخدمات الإدارية وخدمات الدعم",
+        "en": "Administrative and support services"
+      },
+      "public_admin": {
+        "ar": "الإدارة العامة والدفاع ، الضمان الاجتماعي الإلزامي",
+        "en": "Public administration and defence"
+      },
+      "education": {
+        "ar": "التعليم",
+        "en": "Education"
+      },
+      "health": {
+        "ar": "الأنشطة في مجال صحة الإنسان والعمل الاجتماعي",
+        "en": "Human health and social work"
+      },
+      "arts": {
+        "ar": "الفنون والترفيه والتسلية",
+        "en": "Arts, entertainment and recreation"
+      },
+      "other_services": {
+        "ar": "أنشطة الخدمات الأخرى",
+        "en": "Other service activities"
+      },
+      "households": {
+        "ar": "أنشطة الأسر المعيشية",
+        "en": "Activities of households as employers"
+      },
+      "extraterritorial": {
+        "ar": "أنشطة المنظمات والهيئات غير الخاضعة للولاية القضائية الوطنية",
+        "en": "Extraterritorial organizations"
+      },
+      "not_stated": {
+        "ar": "غير مبين",
+        "en": "Not stated"
+      }
+    },
+    "sector": {
+      "public": {
+        "ar": "قطاع عام",
+        "en": "Public sector"
+      },
+      "private": {
+        "ar": "قطاع خاص",
+        "en": "Private sector"
+      },
+      "other": {
+        "ar": "اخرى",
+        "en": "Other"
+      },
+      "not_stated": {
+        "ar": "غير مبين",
+        "en": "Not stated"
+      }
+    },
+    "wageActivityGroup": {
+      "agriculture": {
+        "ar": "الزراعة",
+        "en": "Agriculture"
+      },
+      "industry": {
+        "ar": "الصناعة",
+        "en": "Industry"
+      },
+      "services": {
+        "ar": "الخدمات",
+        "en": "Services"
+      },
+      "not_stated": {
+        "ar": "غير مبين",
+        "en": "Not stated"
+      }
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+    "app": {
+        "name": "Marsad"
+    },
+    "nav": {
+        "overview": "Overview",
+        "unemployment": "Unemployment",
+        "employment": "Employment",
+        "regions": "Regions",
+        "wages": "Wages",
+        "menu": "Main menu",
+        "openMenu": "Open menu",
+        "about": "About",
+        "womenShort": "Women"
+    },
+    "theme": {
+        "label": "Appearance",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    },
+    "language": {
+        "switchTo": "العربية",
+        "label": "Change language"
+    },
+    "common": {
+        "notAvailable": "Not available for this period",
+        "loadingData": "Loading data…",
+        "retry": "Try again",
+        "details": "Details",
+        "comparedTo": "vs {{period}}",
+        "percentagePoints": "pp",
+        "forPeriod": "Data for {{period}}",
+        "quarterShort": "Q{{q}}",
+        "notAvailableShort": "N/A",
+        "methodologyNote": "GASTAT changed how the survey is collected several times since 2021, so not every period is directly comparable.",
+        "gap": "Gap {{value}}",
+        "mostCommon": "Most common: {{label}}",
+        "others": "Other"
+    },
+    "errors": {
+        "title": "Couldn't show the data",
+        "network": "Check your internet connection and try again.",
+        "notFound": "We couldn't find the requested data.",
+        "server": "The server ran into a problem. Try again shortly.",
+        "parse": "The data file is invalid or missing.",
+        "unknown": "Something unexpected went wrong. Try again."
+    },
+    "filters": {
+        "nationality": "Nationality",
+        "gender": "Gender",
+        "period": "Period",
+        "indicator": "Indicator"
+    },
+    "nationality": {
+        "saudi": "Saudi",
+        "nonSaudi": "Non-Saudi",
+        "total": "Total"
+    },
+    "gender": {
+        "male": "Male",
+        "female": "Female",
+        "total": "Total"
+    },
+    "quarter": {
+        "1": "Q1",
+        "2": "Q2",
+        "3": "Q3",
+        "4": "Q4"
+    },
+    "footer": {
+        "disclaimer": "An unofficial personal project, not affiliated with any government entity.",
+        "source": "Source: Labour Force Survey, General Authority for Statistics (GASTAT)",
+        "copyright": "© {{year}} Rahaf Fallatah. All rights reserved.",
+        "contact": "Contact links",
+        "sourceCode": "Code on GitHub",
+        "email": "Email"
+    },
+    "series": {
+        "publicSector": "Public sector",
+        "privateSector": "Private sector"
+    },
+    "indicators": {
+        "unemployment": "Unemployment rate",
+        "participation": "Participation rate",
+        "shareOfEmployed": "Share of employed"
+    },
+    "overview": {
+        "description": "The latest Saudi labor market indicators, up to {{period}}.",
+        "kpi": {
+            "saudiUnemployment": "Saudi unemployment",
+            "totalUnemployment": "Overall unemployment",
+            "saudiParticipation": "Saudi labor force participation",
+            "saudiWomenParticipation": "Saudi women's participation"
+        },
+        "charts": {
+            "unemploymentTrend": "How has unemployment changed since 2021?",
+            "unemploymentTrendDesc": "Unemployment rate by nationality, every quarter",
+            "sectorTrend": "Where do Saudis work?",
+            "sectorTrendDesc": "Share of employed Saudis in the public and private sectors"
+        },
+        "title": "The labor market at a glance"
+    },
+    "unemployment": {
+        "description": "The unemployment rate over time, by age and by region.",
+        "seeRegions": "All regions",
+        "charts": {
+            "trend": "Unemployment among {{group}}: men and women",
+            "trendDesc": "By gender, every quarter since 2021",
+            "byAge": "Which ages look for work the most?",
+            "byRegion": "Where is unemployment highest?"
+        },
+        "title": "Unemployment"
+    },
+    "employment": {
+        "description": "Who works, where, and in which jobs.",
+        "showTop": "Top {{count}}",
+        "showAll": "All",
+        "charts": {
+            "ratioTrend": "Employment-to-population ratio: {{group}}",
+            "ratioTrendDesc": "By gender, every quarter since 2021",
+            "sectorTrend": "Public or private sector?",
+            "sectorTrendDesc": "Share of employed in each sector",
+            "occupation": "What jobs do people do?",
+            "education": "How educated is the workforce?",
+            "activity": "Which industries employ the most?",
+            "occupationDesc": "The four largest jobs; the rest grouped as \"Other\" · {{period}}",
+            "educationDesc": "The employed from the lowest education level to the highest · {{period}}"
+        },
+        "title": "Employment"
+    },
+    "regions": {
+        "description": "Compare the thirteen administrative regions.",
+        "kpi": {
+            "national": "{{indicator}}, national",
+            "highest": "Highest: {{region}}",
+            "lowest": "Lowest: {{region}}"
+        },
+        "charts": {
+            "ranking": "{{indicator}} by region",
+            "rankingDescGood": "Highest to lowest, {{period}}. Higher is better.",
+            "rankingDescBad": "Highest to lowest, {{period}}. Lower is better."
+        },
+        "table": {
+            "rank": "Rank",
+            "region": "Region",
+            "vsNational": "vs national"
+        },
+        "title": "Regions",
+        "tiles": {
+            "low": "Lower",
+            "high": "Higher"
+        },
+        "view": {
+            "tiles": "Tiles",
+            "table": "Table"
+        }
+    },
+    "wages": {
+        "description": "Average monthly wage of paid employees, in Saudi riyals.",
+        "activityFrom2024": "GASTAT publishes this table from 2024 onwards.",
+        "kpi": {
+            "average": "Average wage: {{group}}",
+            "averageAll": "Average wage: everyone",
+            "gap": "Gender pay gap: {{group}}",
+            "gapHint": "How much less women earn than men"
+        },
+        "charts": {
+            "byAge": "How far apart are men's and women's pay by age? {{group}}",
+            "byAgeDesc": "Men's and women's wage at each age; the line between them is the gap · {{period}}",
+            "byActivity": "Which sectors pay more? {{group}}",
+            "byActivityDesc": "Agriculture, industry and services, for men and women · {{period}}"
+        },
+        "title": "Wages"
+    },
+    "women": {
+        "description": "Women's place in the labor market, compared with men.",
+        "kpi": {
+            "participation": "Women's participation: {{group}}",
+            "unemployment": "Women's unemployment: {{group}}",
+            "employmentRatio": "Women's employment ratio: {{group}}",
+            "privateShare": "Women employed in private sector: {{group}}"
+        },
+        "charts": {
+            "participationTrend": "Are more women joining the workforce? {{group}}",
+            "unemploymentTrend": "Women's unemployment compared with men's: {{group}}",
+            "trendDesc": "Women vs men, every quarter since 2021",
+            "occupation": "What jobs do women do? {{group}}"
+        },
+        "title": "Women in the workforce"
+    },
+    "notFound": {
+        "title": "Page not found",
+        "body": "The link may have changed or been mistyped.",
+        "home": "Back to overview"
+    },
+    "about": {
+        "description": "Why Marsad exists, where its data comes from, and answers to your questions.",
+        "source": {
+            "title": "Data source",
+            "publisher": "Publisher",
+            "coverage": "Coverage",
+            "range": "{{from}} to {{to}}",
+            "quarters": "Quarters",
+            "latest": "Latest data"
+        },
+        "notes": {
+            "title": "Notes on the data",
+            "missingValues": "Some values aren't published by GASTAT. They show as “N/A” here and are never treated as zero.",
+            "notStated": "The “Not stated” category is left out of charts, so distributions may not add up to exactly 100%.",
+            "wagesByActivity": "Wages by economic activity are only available from 2024.",
+            "q4_2021": "In Q4 2021, GASTAT's own occupation distribution doesn't add up to 100%. The numbers are shown as published."
+        },
+        "methodology": {
+            "title": "Changes in data collection",
+            "arabicOnly": "These notes are shown as GASTAT published them, in Arabic."
+        },
+        "title": "About Marsad",
+        "vision": {
+            "title": "Our vision",
+            "body": "Saudi labor market numbers that anyone can understand, not just specialists."
+        },
+        "mission": {
+            "title": "Our mission",
+            "body": "We turn GASTAT's quarterly tables into interactive charts in Arabic and English that you can filter and share."
+        },
+        "goals": {
+            "title": "Our goals",
+            "body": "Find any number in seconds, see the trend over years rather than a single snapshot, and always know where a number comes from and its limits."
+        },
+        "audience": {
+            "title": "Who is it for?",
+            "body": "Students, researchers and journalists, and anyone looking for work or planning a career who wants to understand the market through numbers."
+        },
+        "faq": {
+            "title": "Frequently asked questions",
+            "description": "Quick answers about Marsad and its data",
+            "asideBody": "Every number in Marsad is published by GASTAT, and you can always go back to the original bulletin.",
+            "asideLink": "Visit GASTAT",
+            "items": {
+                "whatIs": {
+                    "q": "What is Marsad?",
+                    "a": "An interactive dashboard of Saudi labor market indicators, quarter by quarter since 2021: unemployment, employment, wages, regions and women's participation."
+                },
+                "official": {
+                    "q": "Is Marsad an official website?",
+                    "a": "No. Marsad is an independent personal project, not affiliated with any government entity, but it relies entirely on official published data."
+                },
+                "source": {
+                    "q": "Where does the data come from?",
+                    "a": "From the Labor Market Statistics bulletin GASTAT publishes every quarter, based on the Labour Force Survey."
+                },
+                "updates": {
+                    "q": "How often is the data updated?",
+                    "a": "Every quarter, after GASTAT publishes its new bulletin. A script in the project converts the Excel file into the site's data and checks the numbers."
+                },
+                "missing": {
+                    "q": "Why do some values show “N/A”?",
+                    "a": "GASTAT didn't publish them for that period, usually because the sample was too small. We show them as not available and never as zero, so charts don't mislead."
+                },
+                "participation": {
+                    "q": "What does the labor force participation rate mean?",
+                    "a": "The share of working-age people (15 and over) who are working or looking for work. People who are neither, such as students and retirees, are outside the labor force."
+                },
+                "unemployment": {
+                    "q": "How is the unemployment rate calculated?",
+                    "a": "The share of people looking for and available for work, out of the whole labor force: the employed and the unemployed together."
+                }
+            }
+        },
+        "what": {
+            "title": "What is Marsad?",
+            "body": "Marsad is an interactive dashboard of Saudi labor market indicators, quarter by quarter: unemployment, employment, wages, regional differences and women's participation. Every page can be filtered by nationality, gender and period, and the link keeps the filters when shared."
+        },
+        "stats": {
+            "quarters": "quarters of data",
+            "regions": "administrative regions",
+            "years": "years covered",
+            "languages": "languages"
+        },
+        "saduStory": {
+            "title": "Why Al Sadu?",
+            "body": "Al Sadu is the Bedouin weaving of the Arabian Peninsula, woven by women from wool in precise geometric patterns: diamonds, triangles and lines repeating in a steady rhythm.",
+            "whyMersad": "We chose it as Marsad's identity because data is much the same: small threads, each number saying little on its own, that together weave a full picture of the labor market.",
+            "facts": {
+                "unesco": {
+                    "value": "2020",
+                    "label": "Inscribed by UNESCO on the Representative List of the Intangible Cultural Heritage of Humanity"
+                },
+                "g20": {
+                    "value": "G20",
+                    "label": "Inspired the logo of the G20 summit hosted by Saudi Arabia"
+                },
+                "mersad": {
+                    "value": "Marsad",
+                    "label": "The pattern on every page and the site's logo come from its diamonds"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/* Filters keep their natural width so every option shows its full name. */
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-xs);
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.label {
+    font-size: var(--m-font-sm);
+    color: var(--m-hero-text-secondary);
+}
+
+/* antd cuts long option names with "…"; filters always show the full name. */
+.field :global(.ant-segmented-item-label) {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+/*
+ * Phone (< 576px): each filter takes a full row, and switches stretch to the same width as the
+ * period select, options sharing the space. An option never shrinks below its name: if a switch
+ * still doesn't fit, it scrolls sideways instead of cutting words.
+ */
+@media (max-width: 575px) {
+    .field {
+        flex: 1 1 100%;
+        overflow-x: auto;
+    }
+
+    .field :global(.ant-segmented) {
+        display: flex;
+        min-width: 100%;
+    }
+
+    .field :global(.ant-segmented-group) {
+        flex: 1;
+    }
+
+    .field :global(.ant-segmented-item) {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+}

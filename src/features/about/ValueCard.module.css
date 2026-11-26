@@ -1,0 +1,45 @@
+.card {
+    height: 100%;
+    overflow: hidden;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(calc(var(--m-space-xxs) * -1));
+    box-shadow: 0 var(--m-space-sm) var(--m-space-xl) var(--m-shadow);
+}
+
+/* The woven strip along the top edge, in the brand green on a soft green ground. */
+.band {
+    padding-block: var(--m-space-xs);
+    box-sizing: content-box;
+    background: var(--m-primary-soft);
+    color: var(--m-primary-text);
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--m-space-xxl) + var(--m-space-md));
+    height: calc(var(--m-space-xxl) + var(--m-space-md));
+    margin-block-end: var(--m-space-md);
+    border-radius: var(--m-radius-md);
+    background: var(--m-primary);
+    color: var(--m-hero-text);
+}
+
+.title {
+    margin: 0 0 var(--m-space-xs);
+    font-size: var(--m-font-lg);
+    font-weight: 700;
+    color: var(--m-text);
+}
+
+.body {
+    margin: 0;
+    color: var(--m-text-secondary);
+    line-height: 1.8;
+}

@@ -1,0 +1,190 @@
+/* ---------- Data notes: short cards in a row ---------- */
+
+.noteGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--m-layout-kpi-min-width)), 1fr));
+    gap: var(--m-space-md);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.note {
+    padding: var(--m-space-md) var(--m-space-lg);
+    border-inline-start: 3px solid var(--m-primary-text);
+    border-radius: var(--m-radius-sm);
+    background: var(--m-primary-soft);
+    color: var(--m-text);
+    font-size: var(--m-font-md);
+    line-height: 1.8;
+}
+
+/* ---------- Methodology: a timeline across the card ---------- */
+
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--m-layout-kpi-min-width)), 1fr));
+    gap: var(--m-space-lg);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* A Sadu eye on a line above each step; the lines join into one track across the row. */
+.step {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-xs);
+    padding-block-start: calc(var(--m-layout-timeline-marker-size) + var(--m-space-md));
+}
+
+.step::before {
+    content: '';
+    position: absolute;
+    inset-block-start: calc(var(--m-layout-timeline-marker-size) / 2 - 1px);
+    inset-inline: 0 calc(var(--m-space-lg) * -1);
+    height: 2px;
+    background: var(--m-border);
+}
+
+.step:last-child::before {
+    inset-inline-end: 0;
+}
+
+.stepMarker {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+}
+
+.stepPeriod {
+    font-size: var(--m-font-md);
+    font-weight: 700;
+    color: var(--m-text);
+}
+
+.stepMethod {
+    font-size: var(--m-font-md);
+    line-height: 1.7;
+    color: var(--m-text-secondary);
+}
+
+.facts {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--m-space-sm) var(--m-space-lg);
+}
+
+.facts dt {
+    color: var(--m-text-secondary);
+}
+
+.facts dd {
+    margin: 0;
+    font-weight: 500;
+}
+
+.question {
+    font-weight: 600;
+    color: var(--m-text);
+}
+
+.answer {
+    margin: 0;
+    color: var(--m-text-secondary);
+    line-height: 1.8;
+}
+
+.caption {
+    margin-block-start: var(--m-space-md);
+    font-size: var(--m-font-sm);
+    color: var(--m-text-secondary);
+}
+
+
+/* ---------- FAQ: green Sadu panel + questions ---------- */
+
+.faq {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    overflow: hidden;
+    border: 1px solid var(--m-border);
+    border-radius: var(--m-radius-lg);
+    background: var(--m-surface);
+}
+
+.faqAside {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    padding: var(--m-space-xxl);
+    background: var(--m-hero-bg);
+    color: var(--m-hero-text);
+}
+
+.faqAsideContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--m-space-sm);
+}
+
+.faqTitle {
+    margin: var(--m-space-sm) 0 0;
+    font-size: var(--m-font-title);
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--m-hero-text);
+}
+
+.faqText {
+    margin: 0;
+    color: var(--m-hero-text-secondary);
+    line-height: 1.8;
+}
+
+.faqLink {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--m-space-xs);
+    margin-block-start: var(--m-space-sm);
+    padding: var(--m-space-sm) var(--m-space-lg);
+    border-radius: var(--m-radius-pill);
+    background: var(--m-hero-text);
+    color: var(--m-hero-bg);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.faqLink:hover {
+    color: var(--m-hero-bg);
+    opacity: 0.9;
+}
+
+.faqList {
+    padding: var(--m-space-lg) var(--m-space-xl);
+}
+
+/* A thin line between questions. */
+.faqList :global(.ant-collapse-item):not(:last-child) {
+    border-block-end: 1px solid var(--m-border);
+}
+
+/* Phone and small tablet: the green panel sits on top of the questions. */
+@media (max-width: 899px) {
+    .faq {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .faqAside {
+        padding: var(--m-space-xl);
+    }
+
+    .faqList {
+        padding: var(--m-space-sm) var(--m-space-md);
+    }
+}

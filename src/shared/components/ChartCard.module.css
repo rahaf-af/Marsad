@@ -1,0 +1,44 @@
+/*
+ * The chart's height is a minimum: on its own the chart is exactly this tall, and when the
+ * card next to it in the row is taller (e.g. a 13-region bar chart), it grows to fill the card.
+ */
+.chartArea {
+    position: relative;
+    flex: 1;
+    min-height: var(--chart-height, var(--m-layout-chart-height));
+}
+
+/* The content fills the area exactly, so Recharts always measures a definite size. */
+.chartArea>* {
+    position: absolute;
+    inset: 0;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/*
+ * Lists and tiles: as tall as their content, no fixed chart box. When the card next to it is
+ * taller, the content gets the extra height and spreads its rows out (see BarList, DumbbellChart).
+ */
+.chartArea.fit {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.chartArea.fit>* {
+    position: static;
+    flex: 1;
+}
+
+/* Phone (< 576px): cards stack, so each chart keeps its own, shorter height. */
+@media (max-width: 575px) {
+    .chartArea:not(.fit) {
+        min-height: calc(var(--chart-height, var(--m-layout-chart-height)) * 0.8);
+    }
+}

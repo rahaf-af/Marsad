@@ -1,0 +1,123 @@
+/* Ring and key side by side; the key drops under the ring when the card is narrow. */
+.frame {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--m-space-xl);
+    height: 100%;
+}
+
+.donut {
+    position: relative;
+    flex: 0 0 auto;
+    width: calc(var(--m-layout-chart-height) * 0.7);
+    aspect-ratio: 1;
+}
+
+/* Starts at 12 o'clock and runs clockwise; in Arabic it runs the other way, like the reading. */
+.ring {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+:global([dir='rtl']) .ring {
+    transform: rotate(-90deg) scaleY(-1);
+}
+
+.track {
+    fill: none;
+    stroke: var(--m-border);
+    stroke-width: 14;
+    opacity: 0.4;
+}
+
+.slice {
+    fill: none;
+    stroke-width: 14;
+    transition: stroke-width 0.2s ease;
+}
+
+.slice:hover {
+    stroke-width: 17;
+}
+
+.center {
+    position: absolute;
+    inset: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.centerValue {
+    font-size: var(--m-font-title);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--m-text);
+    font-variant-numeric: tabular-nums;
+}
+
+.centerLabel {
+    margin-block-start: var(--m-space-xs);
+    font-size: var(--m-font-sm);
+    line-height: 1.3;
+    color: var(--m-text-secondary);
+}
+
+.key {
+    display: flex;
+    flex: 1 1 var(--m-layout-key-item-min-width);
+    flex-direction: column;
+    gap: var(--m-space-sm);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.keyItem {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--m-space-sm);
+    padding-block-end: var(--m-space-sm);
+    border-block-end: 1px solid var(--m-border);
+}
+
+.keyItem:last-child {
+    border-block-end: none;
+}
+
+.swatch {
+    flex-shrink: 0;
+    margin-block-start: var(--m-space-xs);
+}
+
+.keyText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.keyLabel {
+    font-size: var(--m-font-md);
+    color: var(--m-text);
+}
+
+.members {
+    margin-block-start: var(--m-space-xxs);
+    font-size: var(--m-font-xs);
+    line-height: 1.5;
+    color: var(--m-text-secondary);
+}
+
+.keyValue {
+    font-size: var(--m-font-md);
+    font-weight: 600;
+    color: var(--m-text);
+    font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,1816 @@
+{
+  "period": "2021-Q1",
+  "year": 2021,
+  "quarter": 1,
+  "data": {
+    "unemployment_by_age": {
+      "categories": [
+        {
+          "id": "15_24",
+          "values": {
+            "saudi": {
+              "male": 22.18,
+              "female": 36.36,
+              "total": 25.98
+            },
+            "nonSaudi": {
+              "male": 13.65,
+              "female": 23.55,
+              "total": 14.55
+            },
+            "total": {
+              "male": 18.94,
+              "female": 34.53,
+              "total": 22.2
+            }
+          }
+        },
+        {
+          "id": "25_34",
+          "values": {
+            "saudi": {
+              "male": 9.15,
+              "female": 32.92,
+              "total": 17.41
+            },
+            "nonSaudi": {
+              "male": 1.86,
+              "female": 6.3,
+              "total": 2.41
+            },
+            "total": {
+              "male": 4.15,
+              "female": 23.18,
+              "total": 8.12
+            }
+          }
+        },
+        {
+          "id": "35_44",
+          "values": {
+            "saudi": {
+              "male": 2.58,
+              "female": 13.92,
+              "total": 6.52
+            },
+            "nonSaudi": {
+              "male": 0.55,
+              "female": 3.78,
+              "total": 0.85
+            },
+            "total": {
+              "male": 1.1,
+              "female": 10.45,
+              "total": 2.78
+            }
+          }
+        },
+        {
+          "id": "45_54",
+          "values": {
+            "saudi": {
+              "male": 1.59,
+              "female": 5.25,
+              "total": 2.89
+            },
+            "nonSaudi": {
+              "male": 0.67,
+              "female": 2.17,
+              "total": 0.8
+            },
+            "total": {
+              "male": 0.91,
+              "female": 4.29,
+              "total": 1.49
+            }
+          }
+        },
+        {
+          "id": "55_plus",
+          "values": {
+            "saudi": {
+              "male": 0.44,
+              "female": 0.44,
+              "total": 0.44
+            },
+            "nonSaudi": {
+              "male": 0.18,
+              "female": 2.01,
+              "total": 0.26
+            },
+            "total": {
+              "male": 0.26,
+              "female": 0.83,
+              "total": 0.32
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 7.44,
+          "female": 21.72,
+          "total": 12.17
+        },
+        "nonSaudi": {
+          "male": 1.53,
+          "female": 5.38,
+          "total": 1.91
+        },
+        "total": {
+          "male": 3.37,
+          "female": 16.37,
+          "total": 5.8
+        }
+      }
+    },
+    "unemployment_by_region": {
+      "categories": [
+        {
+          "id": "riyadh",
+          "values": {
+            "saudi": {
+              "male": 6.2,
+              "female": 19.95,
+              "total": 11.03
+            },
+            "nonSaudi": {
+              "male": 1.51,
+              "female": 4.91,
+              "total": 1.91
+            },
+            "total": {
+              "male": 2.82,
+              "female": 14.08,
+              "total": 5.05
+            }
+          }
+        },
+        {
+          "id": "makkah",
+          "values": {
+            "saudi": {
+              "male": 7.8,
+              "female": 24.0,
+              "total": 13.49
+            },
+            "nonSaudi": {
+              "male": 2.52,
+              "female": 11.28,
+              "total": 3.3
+            },
+            "total": {
+              "male": 4.0,
+              "female": 19.97,
+              "total": 6.9
+            }
+          }
+        },
+        {
+          "id": "madinah",
+          "values": {
+            "saudi": {
+              "male": 10.52,
+              "female": 22.59,
+              "total": 14.41
+            },
+            "nonSaudi": {
+              "male": 1.31,
+              "female": 6.98,
+              "total": 1.78
+            },
+            "total": {
+              "male": 4.38,
+              "female": 18.29,
+              "total": 6.88
+            }
+          }
+        },
+        {
+          "id": "qassim",
+          "values": {
+            "saudi": {
+              "male": 9.25,
+              "female": 22.73,
+              "total": 13.49
+            },
+            "nonSaudi": {
+              "male": 1.56,
+              "female": 0.4,
+              "total": 1.46
+            },
+            "total": {
+              "male": 4.54,
+              "female": 17.03,
+              "total": 6.95
+            }
+          }
+        },
+        {
+          "id": "eastern",
+          "values": {
+            "saudi": {
+              "male": 5.81,
+              "female": 19.74,
+              "total": 10.06
+            },
+            "nonSaudi": {
+              "male": 0.68,
+              "female": 2.21,
+              "total": 0.82
+            },
+            "total": {
+              "male": 2.24,
+              "female": 13.82,
+              "total": 4.2
+            }
+          }
+        },
+        {
+          "id": "asir",
+          "values": {
+            "saudi": {
+              "male": 6.4,
+              "female": 22.15,
+              "total": 11.05
+            },
+            "nonSaudi": {
+              "male": 0.68,
+              "female": 0.0,
+              "total": 0.63
+            },
+            "total": {
+              "male": 2.85,
+              "female": 16.22,
+              "total": 5.24
+            }
+          }
+        },
+        {
+          "id": "tabuk",
+          "values": {
+            "saudi": {
+              "male": 10.45,
+              "female": 29.2,
+              "total": 16.42
+            },
+            "nonSaudi": {
+              "male": 0.94,
+              "female": 2.35,
+              "total": 1.03
+            },
+            "total": {
+              "male": 4.79,
+              "female": 24.18,
+              "total": 8.44
+            }
+          }
+        },
+        {
+          "id": "hail",
+          "values": {
+            "saudi": {
+              "male": 8.36,
+              "female": 21.4,
+              "total": 12.62
+            },
+            "nonSaudi": {
+              "male": 0.0,
+              "female": 1.29,
+              "total": 0.16
+            },
+            "total": {
+              "male": 3.13,
+              "female": 14.81,
+              "total": 5.62
+            }
+          }
+        },
+        {
+          "id": "northern_borders",
+          "values": {
+            "saudi": {
+              "male": 4.59,
+              "female": 16.32,
+              "total": 8.24
+            },
+            "nonSaudi": {
+              "male": 0.83,
+              "female": 0.0,
+              "total": 0.72
+            },
+            "total": {
+              "male": 2.44,
+              "female": 11.14,
+              "total": 4.36
+            }
+          }
+        },
+        {
+          "id": "jazan",
+          "values": {
+            "saudi": {
+              "male": 10.55,
+              "female": 22.48,
+              "total": 14.41
+            },
+            "nonSaudi": {
+              "male": 1.28,
+              "female": 0.37,
+              "total": 1.22
+            },
+            "total": {
+              "male": 5.25,
+              "female": 18.82,
+              "total": 7.93
+            }
+          }
+        },
+        {
+          "id": "najran",
+          "values": {
+            "saudi": {
+              "male": 6.27,
+              "female": 18.59,
+              "total": 10.08
+            },
+            "nonSaudi": {
+              "male": 2.99,
+              "female": 0.0,
+              "total": 2.68
+            },
+            "total": {
+              "male": 4.26,
+              "female": 13.22,
+              "total": 6.02
+            }
+          }
+        },
+        {
+          "id": "baha",
+          "values": {
+            "saudi": {
+              "male": 6.58,
+              "female": 18.98,
+              "total": 10.33
+            },
+            "nonSaudi": {
+              "male": 0.16,
+              "female": 0.0,
+              "total": 0.14
+            },
+            "total": {
+              "male": 2.76,
+              "female": 12.85,
+              "total": 4.84
+            }
+          }
+        },
+        {
+          "id": "jouf",
+          "values": {
+            "saudi": {
+              "male": 13.89,
+              "female": 23.14,
+              "total": 16.83
+            },
+            "nonSaudi": {
+              "male": 0.95,
+              "female": 7.0,
+              "total": 1.66
+            },
+            "total": {
+              "male": 6.05,
+              "female": 18.2,
+              "total": 8.59
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 7.44,
+          "female": 21.72,
+          "total": 12.17
+        },
+        "nonSaudi": {
+          "male": 1.53,
+          "female": 5.38,
+          "total": 1.91
+        },
+        "total": {
+          "male": 3.37,
+          "female": 16.37,
+          "total": 5.8
+        }
+      }
+    },
+    "participation_by_region": {
+      "categories": [
+        {
+          "id": "riyadh",
+          "values": {
+            "saudi": {
+              "male": 68.88,
+              "female": 37.76,
+              "total": 53.42
+            },
+            "nonSaudi": {
+              "male": 93.7,
+              "female": 44.68,
+              "total": 82.96
+            },
+            "total": {
+              "male": 85.15,
+              "female": 40.19,
+              "total": 69.7
+            }
+          }
+        },
+        {
+          "id": "makkah",
+          "values": {
+            "saudi": {
+              "male": 64.49,
+              "female": 34.16,
+              "total": 49.16
+            },
+            "nonSaudi": {
+              "male": 91.15,
+              "female": 26.75,
+              "total": 75.07
+            },
+            "total": {
+              "male": 81.7,
+              "female": 31.4,
+              "total": 63.3
+            }
+          }
+        },
+        {
+          "id": "madinah",
+          "values": {
+            "saudi": {
+              "male": 60.02,
+              "female": 27.53,
+              "total": 43.5
+            },
+            "nonSaudi": {
+              "male": 92.32,
+              "female": 32.28,
+              "total": 79.97
+            },
+            "total": {
+              "male": 78.26,
+              "female": 28.7,
+              "total": 59.73
+            }
+          }
+        },
+        {
+          "id": "qassim",
+          "values": {
+            "saudi": {
+              "male": 64.73,
+              "female": 28.79,
+              "total": 46.47
+            },
+            "nonSaudi": {
+              "male": 95.96,
+              "female": 46.24,
+              "total": 87.43
+            },
+            "total": {
+              "male": 80.83,
+              "female": 31.86,
+              "total": 62.34
+            }
+          }
+        },
+        {
+          "id": "eastern",
+          "values": {
+            "saudi": {
+              "male": 69.76,
+              "female": 32.07,
+              "total": 51.33
+            },
+            "nonSaudi": {
+              "male": 96.42,
+              "female": 48.26,
+              "total": 88.51
+            },
+            "total": {
+              "male": 86.35,
+              "female": 36.17,
+              "total": 69.99
+            }
+          }
+        },
+        {
+          "id": "asir",
+          "values": {
+            "saudi": {
+              "male": 59.44,
+              "female": 23.74,
+              "total": 41.17
+            },
+            "nonSaudi": {
+              "male": 96.19,
+              "female": 51.22,
+              "total": 89.48
+            },
+            "total": {
+              "male": 77.92,
+              "female": 27.72,
+              "total": 58.91
+            }
+          }
+        },
+        {
+          "id": "tabuk",
+          "values": {
+            "saudi": {
+              "male": 61.95,
+              "female": 29.1,
+              "total": 45.58
+            },
+            "nonSaudi": {
+              "male": 94.6,
+              "female": 37.28,
+              "total": 85.66
+            },
+            "total": {
+              "male": 77.97,
+              "female": 30.35,
+              "total": 60.17
+            }
+          }
+        },
+        {
+          "id": "hail",
+          "values": {
+            "saudi": {
+              "male": 58.2,
+              "female": 28.17,
+              "total": 43.17
+            },
+            "nonSaudi": {
+              "male": 97.3,
+              "female": 66.2,
+              "total": 91.94
+            },
+            "total": {
+              "male": 77.73,
+              "female": 34.7,
+              "total": 61.5
+            }
+          }
+        },
+        {
+          "id": "northern_borders",
+          "values": {
+            "saudi": {
+              "male": 61.64,
+              "female": 27.64,
+              "total": 44.57
+            },
+            "nonSaudi": {
+              "male": 93.48,
+              "female": 55.1,
+              "total": 85.37
+            },
+            "total": {
+              "male": 76.52,
+              "female": 32.83,
+              "total": 59.12
+            }
+          }
+        },
+        {
+          "id": "jazan",
+          "values": {
+            "saudi": {
+              "male": 54.24,
+              "female": 24.99,
+              "total": 39.33
+            },
+            "nonSaudi": {
+              "male": 88.01,
+              "female": 23.47,
+              "total": 74.4
+            },
+            "total": {
+              "male": 69.48,
+              "female": 24.73,
+              "total": 51.18
+            }
+          }
+        },
+        {
+          "id": "najran",
+          "values": {
+            "saudi": {
+              "male": 66.68,
+              "female": 29.11,
+              "total": 47.64
+            },
+            "nonSaudi": {
+              "male": 91.76,
+              "female": 43.45,
+              "total": 82.33
+            },
+            "total": {
+              "male": 80.1,
+              "female": 32.17,
+              "total": 61.99
+            }
+          }
+        },
+        {
+          "id": "baha",
+          "values": {
+            "saudi": {
+              "male": 57.97,
+              "female": 23.1,
+              "total": 39.78
+            },
+            "nonSaudi": {
+              "male": 96.81,
+              "female": 67.19,
+              "total": 91.82
+            },
+            "total": {
+              "male": 76.16,
+              "female": 29.3,
+              "total": 57.28
+            }
+          }
+        },
+        {
+          "id": "jouf",
+          "values": {
+            "saudi": {
+              "male": 60.17,
+              "female": 27.56,
+              "total": 43.75
+            },
+            "nonSaudi": {
+              "male": 97.07,
+              "female": 59.39,
+              "total": 90.32
+            },
+            "total": {
+              "male": 78.17,
+              "female": 32.97,
+              "total": 60.77
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 64.79,
+          "female": 31.87,
+          "total": 48.28
+        },
+        "nonSaudi": {
+          "male": 93.56,
+          "female": 38.55,
+          "total": 82.02
+        },
+        "total": {
+          "male": 82.16,
+          "female": 33.79,
+          "total": 64.82
+        }
+      }
+    },
+    "employed_by_education": {
+      "categories": [
+        {
+          "id": "none",
+          "values": {
+            "saudi": {
+              "male": 1.27,
+              "female": 3.79,
+              "total": 2.01
+            },
+            "nonSaudi": {
+              "male": 10.23,
+              "female": 20.35,
+              "total": 11.19
+            },
+            "total": {
+              "male": 7.55,
+              "female": 9.92,
+              "total": 7.94
+            }
+          }
+        },
+        {
+          "id": "early_childhood",
+          "values": {
+            "saudi": {
+              "male": 0.38,
+              "female": 0.89,
+              "total": 0.53
+            },
+            "nonSaudi": {
+              "male": 3.08,
+              "female": 3.26,
+              "total": 3.1
+            },
+            "total": {
+              "male": 2.27,
+              "female": 1.77,
+              "total": 2.19
+            }
+          }
+        },
+        {
+          "id": "primary",
+          "values": {
+            "saudi": {
+              "male": 4.45,
+              "female": 5.4,
+              "total": 4.73
+            },
+            "nonSaudi": {
+              "male": 14.38,
+              "female": 19.79,
+              "total": 14.9
+            },
+            "total": {
+              "male": 11.41,
+              "female": 10.73,
+              "total": 11.3
+            }
+          }
+        },
+        {
+          "id": "intermediate",
+          "values": {
+            "saudi": {
+              "male": 7.4,
+              "female": 6.64,
+              "total": 7.18
+            },
+            "nonSaudi": {
+              "male": 17.26,
+              "female": 20.0,
+              "total": 17.52
+            },
+            "total": {
+              "male": 14.31,
+              "female": 11.59,
+              "total": 13.86
+            }
+          }
+        },
+        {
+          "id": "secondary",
+          "values": {
+            "saudi": {
+              "male": 37.58,
+              "female": 20.55,
+              "total": 32.55
+            },
+            "nonSaudi": {
+              "male": 22.79,
+              "female": 23.48,
+              "total": 22.86
+            },
+            "total": {
+              "male": 27.22,
+              "female": 21.64,
+              "total": 26.29
+            }
+          }
+        },
+        {
+          "id": "associate_diploma",
+          "values": {
+            "saudi": {
+              "male": 10.41,
+              "female": 7.02,
+              "total": 9.41
+            },
+            "nonSaudi": {
+              "male": 5.1,
+              "female": 1.39,
+              "total": 4.75
+            },
+            "total": {
+              "male": 6.69,
+              "female": 4.93,
+              "total": 6.4
+            }
+          }
+        },
+        {
+          "id": "intermediate_diploma",
+          "values": {
+            "saudi": {
+              "male": 2.75,
+              "female": 2.39,
+              "total": 2.64
+            },
+            "nonSaudi": {
+              "male": 1.57,
+              "female": 0.44,
+              "total": 1.47
+            },
+            "total": {
+              "male": 1.93,
+              "female": 1.67,
+              "total": 1.88
+            }
+          }
+        },
+        {
+          "id": "bachelor",
+          "values": {
+            "saudi": {
+              "male": 31.88,
+              "female": 49.27,
+              "total": 37.01
+            },
+            "nonSaudi": {
+              "male": 21.53,
+              "female": 8.93,
+              "total": 20.33
+            },
+            "total": {
+              "male": 24.63,
+              "female": 34.33,
+              "total": 26.24
+            }
+          }
+        },
+        {
+          "id": "master",
+          "values": {
+            "saudi": {
+              "male": 2.98,
+              "female": 3.27,
+              "total": 3.07
+            },
+            "nonSaudi": {
+              "male": 2.75,
+              "female": 1.12,
+              "total": 2.59
+            },
+            "total": {
+              "male": 2.82,
+              "female": 2.47,
+              "total": 2.76
+            }
+          }
+        },
+        {
+          "id": "doctorate",
+          "values": {
+            "saudi": {
+              "male": 0.89,
+              "female": 0.78,
+              "total": 0.86
+            },
+            "nonSaudi": {
+              "male": 1.3,
+              "female": 1.22,
+              "total": 1.3
+            },
+            "total": {
+              "male": 1.18,
+              "female": 0.94,
+              "total": 1.14
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "nonSaudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "total": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        }
+      }
+    },
+    "employed_by_occupation": {
+      "categories": [
+        {
+          "id": "managers",
+          "values": {
+            "saudi": {
+              "male": 8.3,
+              "female": 5.9,
+              "total": 7.59
+            },
+            "nonSaudi": {
+              "male": 3.18,
+              "female": 0.58,
+              "total": 2.94
+            },
+            "total": {
+              "male": 4.71,
+              "female": 3.93,
+              "total": 4.58
+            }
+          }
+        },
+        {
+          "id": "professionals",
+          "values": {
+            "saudi": {
+              "male": 21.36,
+              "female": 33.09,
+              "total": 24.82
+            },
+            "nonSaudi": {
+              "male": 17.45,
+              "female": 7.94,
+              "total": 16.54
+            },
+            "total": {
+              "male": 18.62,
+              "female": 23.78,
+              "total": 19.47
+            }
+          }
+        },
+        {
+          "id": "technicians",
+          "values": {
+            "saudi": {
+              "male": 25.02,
+              "female": 9.86,
+              "total": 20.55
+            },
+            "nonSaudi": {
+              "male": 11.05,
+              "female": 1.74,
+              "total": 10.16
+            },
+            "total": {
+              "male": 15.23,
+              "female": 6.86,
+              "total": 13.84
+            }
+          }
+        },
+        {
+          "id": "clerical",
+          "values": {
+            "saudi": {
+              "male": 11.37,
+              "female": 21.2,
+              "total": 14.27
+            },
+            "nonSaudi": {
+              "male": 1.59,
+              "female": 1.07,
+              "total": 1.54
+            },
+            "total": {
+              "male": 4.51,
+              "female": 13.75,
+              "total": 6.05
+            }
+          }
+        },
+        {
+          "id": "service_sales",
+          "values": {
+            "saudi": {
+              "male": 16.84,
+              "female": 9.44,
+              "total": 14.66
+            },
+            "nonSaudi": {
+              "male": 11.73,
+              "female": 44.26,
+              "total": 14.83
+            },
+            "total": {
+              "male": 13.26,
+              "female": 22.33,
+              "total": 14.77
+            }
+          }
+        },
+        {
+          "id": "agriculture",
+          "values": {
+            "saudi": {
+              "male": 0.97,
+              "female": 0.19,
+              "total": 0.74
+            },
+            "nonSaudi": {
+              "male": 3.38,
+              "female": 0.05,
+              "total": 3.06
+            },
+            "total": {
+              "male": 2.66,
+              "female": 0.14,
+              "total": 2.24
+            }
+          }
+        },
+        {
+          "id": "craft",
+          "values": {
+            "saudi": {
+              "male": 1.46,
+              "female": 0.74,
+              "total": 1.25
+            },
+            "nonSaudi": {
+              "male": 10.11,
+              "female": 0.32,
+              "total": 9.18
+            },
+            "total": {
+              "male": 7.53,
+              "female": 0.59,
+              "total": 6.37
+            }
+          }
+        },
+        {
+          "id": "operators",
+          "values": {
+            "saudi": {
+              "male": 3.46,
+              "female": 0.39,
+              "total": 2.55
+            },
+            "nonSaudi": {
+              "male": 30.36,
+              "female": 0.52,
+              "total": 27.52
+            },
+            "total": {
+              "male": 22.31,
+              "female": 0.44,
+              "total": 18.68
+            }
+          }
+        },
+        {
+          "id": "elementary",
+          "values": {
+            "saudi": {
+              "male": 2.21,
+              "female": 2.42,
+              "total": 2.27
+            },
+            "nonSaudi": {
+              "male": 11.08,
+              "female": 43.16,
+              "total": 14.13
+            },
+            "total": {
+              "male": 8.43,
+              "female": 17.5,
+              "total": 9.93
+            }
+          }
+        },
+        {
+          "id": "not_stated",
+          "values": {
+            "saudi": {
+              "male": 9.01,
+              "female": 16.75,
+              "total": 11.3
+            },
+            "nonSaudi": {
+              "male": 0.07,
+              "female": 0.35,
+              "total": 0.1
+            },
+            "total": {
+              "male": 2.74,
+              "female": 10.68,
+              "total": 4.06
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "nonSaudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "total": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        }
+      }
+    },
+    "employed_by_activity": {
+      "categories": [
+        {
+          "id": "agriculture",
+          "values": {
+            "saudi": {
+              "male": 2.2,
+              "female": 0.74,
+              "total": 1.77
+            },
+            "nonSaudi": {
+              "male": 4.32,
+              "female": 0.08,
+              "total": 3.92
+            },
+            "total": {
+              "male": 3.68,
+              "female": 0.5,
+              "total": 3.15
+            }
+          }
+        },
+        {
+          "id": "mining",
+          "values": {
+            "saudi": {
+              "male": 2.13,
+              "female": 0.47,
+              "total": 1.64
+            },
+            "nonSaudi": {
+              "male": 0.54,
+              "female": 0.0,
+              "total": 0.49
+            },
+            "total": {
+              "male": 1.01,
+              "female": 0.3,
+              "total": 0.89
+            }
+          }
+        },
+        {
+          "id": "manufacturing",
+          "values": {
+            "saudi": {
+              "male": 6.4,
+              "female": 6.57,
+              "total": 6.45
+            },
+            "nonSaudi": {
+              "male": 10.97,
+              "female": 1.27,
+              "total": 10.04
+            },
+            "total": {
+              "male": 9.6,
+              "female": 4.6,
+              "total": 8.77
+            }
+          }
+        },
+        {
+          "id": "electricity",
+          "values": {
+            "saudi": {
+              "male": 0.82,
+              "female": 0.15,
+              "total": 0.62
+            },
+            "nonSaudi": {
+              "male": 0.26,
+              "female": 0.0,
+              "total": 0.24
+            },
+            "total": {
+              "male": 0.43,
+              "female": 0.09,
+              "total": 0.37
+            }
+          }
+        },
+        {
+          "id": "water",
+          "values": {
+            "saudi": {
+              "male": 0.73,
+              "female": 0.08,
+              "total": 0.54
+            },
+            "nonSaudi": {
+              "male": 0.27,
+              "female": 0.0,
+              "total": 0.25
+            },
+            "total": {
+              "male": 0.41,
+              "female": 0.05,
+              "total": 0.35
+            }
+          }
+        },
+        {
+          "id": "construction",
+          "values": {
+            "saudi": {
+              "male": 4.92,
+              "female": 8.1,
+              "total": 5.86
+            },
+            "nonSaudi": {
+              "male": 12.77,
+              "female": 0.39,
+              "total": 11.59
+            },
+            "total": {
+              "male": 10.42,
+              "female": 5.25,
+              "total": 9.56
+            }
+          }
+        },
+        {
+          "id": "trade",
+          "values": {
+            "saudi": {
+              "male": 8.84,
+              "female": 13.83,
+              "total": 10.31
+            },
+            "nonSaudi": {
+              "male": 17.9,
+              "female": 1.6,
+              "total": 16.35
+            },
+            "total": {
+              "male": 15.19,
+              "female": 9.3,
+              "total": 14.21
+            }
+          }
+        },
+        {
+          "id": "transport",
+          "values": {
+            "saudi": {
+              "male": 3.9,
+              "female": 1.35,
+              "total": 3.15
+            },
+            "nonSaudi": {
+              "male": 3.22,
+              "female": 0.0,
+              "total": 2.92
+            },
+            "total": {
+              "male": 3.43,
+              "female": 0.85,
+              "total": 3.0
+            }
+          }
+        },
+        {
+          "id": "hospitality",
+          "values": {
+            "saudi": {
+              "male": 2.11,
+              "female": 4.53,
+              "total": 2.83
+            },
+            "nonSaudi": {
+              "male": 4.32,
+              "female": 0.25,
+              "total": 3.94
+            },
+            "total": {
+              "male": 3.66,
+              "female": 2.94,
+              "total": 3.54
+            }
+          }
+        },
+        {
+          "id": "ict",
+          "values": {
+            "saudi": {
+              "male": 1.16,
+              "female": 0.86,
+              "total": 1.07
+            },
+            "nonSaudi": {
+              "male": 1.41,
+              "female": 0.16,
+              "total": 1.29
+            },
+            "total": {
+              "male": 1.34,
+              "female": 0.6,
+              "total": 1.21
+            }
+          }
+        },
+        {
+          "id": "finance",
+          "values": {
+            "saudi": {
+              "male": 2.44,
+              "female": 1.27,
+              "total": 2.1
+            },
+            "nonSaudi": {
+              "male": 0.92,
+              "female": 0.19,
+              "total": 0.85
+            },
+            "total": {
+              "male": 1.37,
+              "female": 0.87,
+              "total": 1.29
+            }
+          }
+        },
+        {
+          "id": "real_estate",
+          "values": {
+            "saudi": {
+              "male": 0.74,
+              "female": 0.44,
+              "total": 0.65
+            },
+            "nonSaudi": {
+              "male": 0.58,
+              "female": 0.0,
+              "total": 0.52
+            },
+            "total": {
+              "male": 0.63,
+              "female": 0.28,
+              "total": 0.57
+            }
+          }
+        },
+        {
+          "id": "professional",
+          "values": {
+            "saudi": {
+              "male": 1.62,
+              "female": 1.64,
+              "total": 1.63
+            },
+            "nonSaudi": {
+              "male": 2.36,
+              "female": 0.16,
+              "total": 2.15
+            },
+            "total": {
+              "male": 2.14,
+              "female": 1.09,
+              "total": 1.97
+            }
+          }
+        },
+        {
+          "id": "administrative",
+          "values": {
+            "saudi": {
+              "male": 3.23,
+              "female": 4.06,
+              "total": 3.47
+            },
+            "nonSaudi": {
+              "male": 2.88,
+              "female": 1.13,
+              "total": 2.71
+            },
+            "total": {
+              "male": 2.98,
+              "female": 2.98,
+              "total": 2.98
+            }
+          }
+        },
+        {
+          "id": "public_admin",
+          "values": {
+            "saudi": {
+              "male": 37.3,
+              "female": 6.29,
+              "total": 28.15
+            },
+            "nonSaudi": {
+              "male": 0.45,
+              "female": 0.13,
+              "total": 0.42
+            },
+            "total": {
+              "male": 11.48,
+              "female": 4.01,
+              "total": 10.24
+            }
+          }
+        },
+        {
+          "id": "education",
+          "values": {
+            "saudi": {
+              "male": 10.92,
+              "female": 29.16,
+              "total": 16.3
+            },
+            "nonSaudi": {
+              "male": 2.47,
+              "female": 2.76,
+              "total": 2.5
+            },
+            "total": {
+              "male": 5.0,
+              "female": 19.38,
+              "total": 7.39
+            }
+          }
+        },
+        {
+          "id": "health",
+          "values": {
+            "saudi": {
+              "male": 5.78,
+              "female": 10.28,
+              "total": 7.11
+            },
+            "nonSaudi": {
+              "male": 2.88,
+              "female": 6.3,
+              "total": 3.21
+            },
+            "total": {
+              "male": 3.75,
+              "female": 8.81,
+              "total": 4.59
+            }
+          }
+        },
+        {
+          "id": "arts",
+          "values": {
+            "saudi": {
+              "male": 0.29,
+              "female": 0.47,
+              "total": 0.35
+            },
+            "nonSaudi": {
+              "male": 0.27,
+              "female": 0.17,
+              "total": 0.26
+            },
+            "total": {
+              "male": 0.28,
+              "female": 0.36,
+              "total": 0.29
+            }
+          }
+        },
+        {
+          "id": "other_services",
+          "values": {
+            "saudi": {
+              "male": 2.43,
+              "female": 2.39,
+              "total": 2.42
+            },
+            "nonSaudi": {
+              "male": 1.58,
+              "female": 1.07,
+              "total": 1.53
+            },
+            "total": {
+              "male": 1.83,
+              "female": 1.9,
+              "total": 1.85
+            }
+          }
+        },
+        {
+          "id": "households",
+          "values": {
+            "saudi": {
+              "male": 0.02,
+              "female": 0.11,
+              "total": 0.04
+            },
+            "nonSaudi": {
+              "male": 29.55,
+              "female": 84.06,
+              "total": 34.73
+            },
+            "total": {
+              "male": 20.71,
+              "female": 31.19,
+              "total": 22.45
+            }
+          }
+        },
+        {
+          "id": "extraterritorial",
+          "values": {
+            "saudi": {
+              "male": 0.03,
+              "female": 0.0,
+              "total": 0.02
+            },
+            "nonSaudi": {
+              "male": 0.07,
+              "female": 0.06,
+              "total": 0.07
+            },
+            "total": {
+              "male": 0.06,
+              "female": 0.02,
+              "total": 0.05
+            }
+          }
+        },
+        {
+          "id": "not_stated",
+          "values": {
+            "saudi": {
+              "male": 1.98,
+              "female": 7.21,
+              "total": 3.53
+            },
+            "nonSaudi": {
+              "male": 0.01,
+              "female": 0.23,
+              "total": 0.03
+            },
+            "total": {
+              "male": 0.6,
+              "female": 4.63,
+              "total": 1.27
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "nonSaudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "total": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        }
+      }
+    },
+    "employed_by_sector": {
+      "categories": [
+        {
+          "id": "public",
+          "values": {
+            "saudi": {
+              "male": 59.16,
+              "female": 38.6,
+              "total": 53.09
+            },
+            "nonSaudi": {
+              "male": 3.25,
+              "female": 3.66,
+              "total": 3.29
+            },
+            "total": {
+              "male": 19.98,
+              "female": 25.66,
+              "total": 20.93
+            }
+          }
+        },
+        {
+          "id": "private",
+          "values": {
+            "saudi": {
+              "male": 40.27,
+              "female": 60.85,
+              "total": 46.35
+            },
+            "nonSaudi": {
+              "male": 66.77,
+              "female": 11.12,
+              "total": 61.48
+            },
+            "total": {
+              "male": 58.84,
+              "female": 42.44,
+              "total": 56.12
+            }
+          }
+        },
+        {
+          "id": "other",
+          "values": {
+            "saudi": {
+              "male": 0.56,
+              "female": 0.55,
+              "total": 0.56
+            },
+            "nonSaudi": {
+              "male": 29.98,
+              "female": 85.22,
+              "total": 35.23
+            },
+            "total": {
+              "male": 21.18,
+              "female": 31.9,
+              "total": 22.96
+            }
+          }
+        },
+        {
+          "id": "not_stated",
+          "values": {
+            "saudi": {
+              "male": 0.0,
+              "female": 0.0,
+              "total": 0.0
+            },
+            "nonSaudi": {
+              "male": 0.0,
+              "female": 0.0,
+              "total": 0.0
+            },
+            "total": {
+              "male": 0.0,
+              "female": 0.0,
+              "total": 0.0
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "nonSaudi": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        },
+        "total": {
+          "male": 100.0,
+          "female": 100.0,
+          "total": 100.0
+        }
+      }
+    },
+    "wage_by_age": {
+      "categories": [
+        {
+          "id": "15_24",
+          "values": {
+            "saudi": {
+              "male": 5049,
+              "female": 3947,
+              "total": 4870
+            },
+            "nonSaudi": {
+              "male": 1902,
+              "female": 1229,
+              "total": 1846
+            },
+            "total": {
+              "male": 3300,
+              "female": 2937,
+              "total": 3256
+            }
+          }
+        },
+        {
+          "id": "25_34",
+          "values": {
+            "saudi": {
+              "male": 8936,
+              "female": 6694,
+              "total": 8490
+            },
+            "nonSaudi": {
+              "male": 2897,
+              "female": 1734,
+              "total": 2754
+            },
+            "total": {
+              "male": 4515,
+              "female": 3685,
+              "total": 4394
+            }
+          }
+        },
+        {
+          "id": "35_44",
+          "values": {
+            "saudi": {
+              "male": 12029,
+              "female": 9032,
+              "total": 11299
+            },
+            "nonSaudi": {
+              "male": 4661,
+              "female": 1962,
+              "total": 4410
+            },
+            "total": {
+              "male": 6548,
+              "female": 5633,
+              "total": 6422
+            }
+          }
+        },
+        {
+          "id": "45_54",
+          "values": {
+            "saudi": {
+              "male": 15892,
+              "female": 10997,
+              "total": 14563
+            },
+            "nonSaudi": {
+              "male": 5466,
+              "female": 2492,
+              "total": 5224
+            },
+            "total": {
+              "male": 7825,
+              "female": 7187,
+              "total": 7740
+            }
+          }
+        },
+        {
+          "id": "55_plus",
+          "values": {
+            "saudi": {
+              "male": 14755,
+              "female": 11488,
+              "total": 14110
+            },
+            "nonSaudi": {
+              "male": 5077,
+              "female": 2720,
+              "total": 4971
+            },
+            "total": {
+              "male": 6364,
+              "female": 6628,
+              "total": 6382
+            }
+          }
+        }
+      ],
+      "total": {
+        "saudi": {
+          "male": 10968,
+          "female": 8445,
+          "total": 10404
+        },
+        "nonSaudi": {
+          "male": 4105,
+          "female": 1938,
+          "total": 3892
+        },
+        "total": {
+          "male": 5856,
+          "female": 5033,
+          "total": 5745
+        }
+      }
+    },
+    "wage_by_activity_group": null
+  }
+}

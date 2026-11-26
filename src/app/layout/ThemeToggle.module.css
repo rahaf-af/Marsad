@@ -1,0 +1,4 @@
+/* Lucide icons sit on the text baseline; nudge them to the middle of the switch. */
+.icon {
+    vertical-align: middle;
+}

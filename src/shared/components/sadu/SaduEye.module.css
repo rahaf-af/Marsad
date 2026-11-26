@@ -1,0 +1,16 @@
+/* The same four greens as the woven band (SaduWeave). */
+.base {
+    fill: var(--m-hero-bg);
+}
+
+.light {
+    fill: var(--m-header-accent);
+}
+
+.mid {
+    fill: var(--m-logo-pattern);
+}
+
+.white {
+    fill: var(--m-hero-text);
+}

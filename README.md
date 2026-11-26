@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/favicon.svg" width="96" alt="Marsad logo" />
+<img src="docs/logo.svg" alt="Marsad logo" width="96" height="96" />
 
 # مَرْصَد · Marsad
 

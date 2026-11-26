@@ -16,6 +16,12 @@ html {
   /* iPhone: don't enlarge text when the phone is turned sideways. */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  /*
+   * Safari on iOS 26 paints the area around its bottom toolbar (and the overscroll bounce)
+   * with the html background. Matching the last row of the Sadu edge makes the weave
+   * run down to the bottom of the screen instead of ending on a white strip.
+   */
+  background-color: var(--m-hero-bg);
 }
 
 body {

@@ -1,5 +1,13 @@
+/*
+ * The timeline sticks under the header while you scroll, so you can drag it
+ * and watch the tiles and table below change at the same time.
+ */
 .card {
+    position: sticky;
+    z-index: 5;
+    top: calc(var(--m-layout-header-height) + var(--m-space-sm));
     width: 100%;
+    box-shadow: 0 var(--m-space-xs) var(--m-space-lg) var(--m-shadow);
 }
 
 .row {
@@ -44,11 +52,32 @@
     padding-inline: var(--m-space-md);
 }
 
-/* Phone: the quarter on its own line, the slider full width under it. */
-/* Phone: the quarter on its own line, the slider full width under it. */
+/* Phone: a compact bar, so it stays out of the way while it follows you down the page. */
 @media (max-width: 575px) {
+    .card :global(.ant-card-body) {
+        padding: var(--m-space-sm) var(--m-space-md);
+    }
+
+    .row {
+        gap: var(--m-space-xs);
+    }
+
+    /* Just the quarter name, on one line above the slider. */
     .current {
         flex-basis: 100%;
+        min-width: 0;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .value {
+        font-size: var(--m-font-base);
+    }
+
+    .control {
+        gap: var(--m-space-xs);
     }
 
     /* Six year labels don't fit side by side, so keep the first and last only (the dots stay). */

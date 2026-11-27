@@ -86,7 +86,7 @@
         "shareOfEmployed": "Share of employed"
     },
     "overview": {
-        "description": "The latest Saudi labor market indicators, up to {{period}}.",
+        "description": "Behind every number here is a person looking for work or building a future. Marsad gives you the full picture of the Saudi labor market: unemployment, employment, wages and women's participation in every region, clear for everyone, from 2021 to {{period}}.",
         "kpi": {
             "saudiUnemployment": "Saudi unemployment",
             "totalUnemployment": "Overall unemployment",

@@ -297,5 +297,9 @@
                 }
             }
         }
+    },
+    "timeline": {
+        "previous": "Previous quarter",
+        "next": "Next quarter"
     }
 }

@@ -1,0 +1,62 @@
+.card {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--m-space-md) var(--m-space-xl);
+}
+
+/* The chosen quarter, written out so you don't have to read the slider. */
+.current {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-space-xxs);
+    min-width: var(--m-layout-timeline-label-width);
+}
+
+.label {
+    color: var(--m-text-secondary);
+    font-size: var(--m-font-sm);
+}
+
+.value {
+    color: var(--m-primary-text);
+    font-size: var(--m-font-lg);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+.control {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: var(--m-space-md);
+    min-width: 0;
+}
+
+/* Room on both sides so the first and last year labels aren't cut off. */
+.slider {
+    flex: 1;
+    min-width: 0;
+    padding-inline: var(--m-space-md);
+}
+
+/* Phone: the quarter on its own line, the slider full width under it. */
+/* Phone: the quarter on its own line, the slider full width under it. */
+@media (max-width: 575px) {
+    .current {
+        flex-basis: 100%;
+    }
+
+    /* Six year labels don't fit side by side, so keep the first and last only (the dots stay). */
+    .slider :global(.ant-slider-mark-text) {
+        font-size: var(--m-font-sm);
+    }
+
+    .slider :global(.ant-slider-mark-text:not(:first-child):not(:last-child)) {
+        visibility: hidden;
+    }
+}

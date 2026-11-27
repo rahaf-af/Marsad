@@ -4,24 +4,24 @@ import { useTranslation } from 'react-i18next';
 import { ErrorAlert } from '../../shared/components/ErrorAlert';
 import { FilterField } from '../../shared/components/filters/FilterField';
 import { KpiCard } from '../../shared/components/KpiCard';
+import { PeriodTimeline } from '../../shared/components/filters/PeriodTimeline';
 import { KpiGrid, PageStack } from '../../shared/components/layout';
 import { PageHeader } from '../../shared/components/PageHeader';
 import { useSearchParamState } from '../../shared/hooks/useSearchParamState';
 import { useLocalized } from '../../shared/i18n/useLocalized';
 import { usePeriodLabel } from '../../shared/i18n/usePeriodLabel';
+import { chart } from '../../shared/theme/tokens';
 import { GenderFilter } from '../labor-data/components/GenderFilter';
 import { MetaBoundary } from '../labor-data/components/MetaBoundary';
 import { NationalityFilter } from '../labor-data/components/NationalityFilter';
-import { PeriodFilter } from '../labor-data/components/PeriodFilter';
-import { useQuarter } from '../labor-data/hooks';
-import { categoryRows, pick } from '../labor-data/selectors';
+import { useQuarter, useQuarters } from '../labor-data/hooks';
+import { categoryRows, difference, pick } from '../labor-data/selectors';
 import type { Meta } from '../labor-data/types';
 import { useGenderFilter, useNationalityFilter, usePeriodFilter } from '../labor-data/useLaborFilters';
 import { useSeriesStyles } from '../labor-data/useSeriesStyles';
 import { RegionTiles } from './RegionTiles';
 import { RegionsTable } from './RegionsTable';
 import styles from './RegionsPage.module.css';
-
 
 const ICON_SIZE = 20;
 const INDICATORS = ['unemployment', 'participation'] as const;
@@ -46,10 +46,31 @@ function RegionsContent({ meta }: { meta: Meta }) {
     const [view, setView] = useSearchParamState<RegionsView>('view', VIEWS, 'tiles');
 
     const quarter = useQuarter(period);
-    const table =
-        indicator === 'unemployment'
-            ? quarter.data?.data.unemployment_by_region
-            : quarter.data?.data.participation_by_region;
+    const tableKey = indicator === 'unemployment' ? 'unemployment_by_region' : 'participation_by_region';
+    const table = quarter.data?.data[tableKey];
+
+    // Every quarter is loaded once, so the timeline moves instantly and the cards can show a trend.
+    const sortedPeriods = [...periods].sort();
+    const quarters = useQuarters(sortedPeriods);
+
+    /** The KPI extras for one region (or the whole country): recent trend and change from last quarter. */
+    const regionKpi = (regionId: string | null) => {
+        const end = sortedPeriods.indexOf(period);
+        const recent = sortedPeriods.slice(Math.max(0, end - chart.sparklinePoints + 1), end + 1);
+        const trend = recent.map((p) => {
+            const tbl = quarters[p]?.data[tableKey];
+            const values = regionId === null ? tbl?.total : tbl?.categories.find((row) => row.id === regionId)?.values;
+            return pick(values, nationality, gender);
+        });
+        const previousPeriod = end > 0 ? sortedPeriods[end - 1] : undefined;
+        return {
+            trend,
+            change: trend.length > 1 ? difference(trend[trend.length - 1], trend[trend.length - 2]) : null,
+            comparisonLabel: previousPeriod ? t('common.comparedTo', { period: periodLabel(previousPeriod) }) : undefined,
+            // For unemployment a rise is bad news; for participation it's good news.
+            positiveIsGood: indicator === 'participation',
+        };
+    };
 
     const rows = categoryRows(table, meta.categories.region, localize, nationality, gender);
     const ranked = rows.filter((row) => row.value != null).sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
@@ -90,12 +111,13 @@ function RegionsContent({ meta }: { meta: Meta }) {
                         </FilterField>
                         <NationalityFilter value={nationality} onChange={setNationality} />
                         <GenderFilter value={gender} onChange={setGender} />
-                        <PeriodFilter periods={periods} value={period} onChange={setPeriod} />
                     </>
                 }
             />
 
             <PageStack>
+                <PeriodTimeline periods={periods} value={period} onChange={setPeriod} />
+
                 {quarter.isError ? (
                     <ErrorAlert error={quarter.error} onRetry={() => void quarter.refetch()} />
                 ) : (
@@ -104,18 +126,21 @@ function RegionsContent({ meta }: { meta: Meta }) {
                             title={t('regions.kpi.national', { indicator: indicatorLabel })}
                             icon={<Globe size={ICON_SIZE} />}
                             value={pick(table?.total, nationality, gender)}
+                            {...regionKpi(null)}
                             loading={quarter.isPending}
                         />
                         <KpiCard
                             title={t('regions.kpi.highest', { region: highest?.label ?? '—' })}
                             icon={<TrendingUp size={ICON_SIZE} />}
                             value={highest?.value}
+                            {...regionKpi(highest?.id ?? null)}
                             loading={quarter.isPending}
                         />
                         <KpiCard
                             title={t('regions.kpi.lowest', { region: lowest?.label ?? '—' })}
                             icon={<TrendingDown size={ICON_SIZE} />}
                             value={lowest?.value}
+                            {...regionKpi(lowest?.id ?? null)}
                             loading={quarter.isPending}
                         />
                     </KpiGrid>
